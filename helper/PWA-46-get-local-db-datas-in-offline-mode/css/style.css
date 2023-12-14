@@ -1,0 +1,12 @@
+.title {
+  color: #030303;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fallback-title {
+  text-align: center;
+  margin-top: 150px;
+}

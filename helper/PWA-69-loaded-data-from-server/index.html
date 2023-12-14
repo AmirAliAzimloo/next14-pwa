@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!---------------------------------- modal -------------------------------- -->
+    <!-- delete course modal-->
+    <!-- ! add visible class to be visible ! -->
+    <div class="modal-container" id="delete-modal">
+      <!-- ! add visible class to be visible ! -->
+      <div class="modal-content">
+        <!-- ! Delete courses  ! -->
+        <h1 class="modal-title">ایا از حذف دوره مطمئن هستید؟</h1>
+        <div class="btn-groups">
+          <button class="accept-btn">بله</button>
+          <button class="unaccept-btn">خیر</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- edit course modal-->
+    <!-- ! add visible class to be visible ! -->
+    <div class="modal-container" id="edit-modal">
+      <!-- ! add visible class to be visible ! -->
+      <div class="modal-content">
+        <!-- ! Edit Course  ! -->
+        <h1 class="modal-title">اطلاعات جدید را وارد کنید</h1>
+        <form action="" class="edit-user-form">
+          <div class="input-field">
+            <span><i class="fa fa-tag"></i></span>
+            <input
+              type="text"
+              id=""
+              name=""
+              placeholder="نام دوره"
+              spellcheck="false"
+            />
+          </div>
+          <div class="input-field">
+            <span><i class="fa fa-cash-register"></i></span>
+            <input
+              type="text"
+              id=""
+              name=""
+              placeholder="قیمت دوره"
+              spellcheck="false"
+            />
+          </div>
+          <div class="input-field">
+            <span><i class="fa fa-user"></i></span>
+            <input
+              type="text"
+              id=""
+              name=""
+              placeholder="مدرس دوره"
+              spellcheck="false"
+            />
+          </div>
+
+          <button type="submit" class="update-btn btn">اپدیت دوره</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- add new course modal-->
+    <!-- ! add visible class to be visible ! -->
+    <div class="modal-container" id="add-new-course-modal">
+      <div class="modal-content">
+        <!-- ! Edit Course  ! -->
+        <h1 class="modal-title">اضافه کردن دوره جدید</h1>
+        <form action="" class="edit-user-form">
+          <div class="input-field">
+            <span><i class="fa fa-tag"></i></span>
+            <input
+              type="text"
+              id=""
+              name=""
+              placeholder="نام دوره"
+              spellcheck="false"
+            />
+          </div>
+          <div class="input-field">
+            <span><i class="fa fa-cash-register"></i></span>
+            <input
+              type="text"
+              id=""
+              name=""
+              placeholder="قیمت دوره"
+              spellcheck="false"
+            />
+          </div>
+          <div class="input-field">
+            <span><i class="fa fa-user"></i></span>
+            <input
+              type="text"
+              id=""
+              name=""
+              placeholder="مدرس دوره"
+              spellcheck="false"
+            />
+          </div>
+          <div class="input-field">
+            <span><i class="fa fa-file"></i></span>
+            <input type="file" name="" id="" />
+          </div>
+
+          <button type="submit" class="update-btn btn">اپدیت دوره</button>
+        </form>
+      </div>
+    </div>
+    <!----------------------------------End modal -------------------------------- -->
+
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-logo">
+          <img src="asset/images/logo/logo.webp" alt="" />
+          <h3>سبزلرن</h3>
+        </div>
+        <ul class="sidebar-links">
+          <li>
+            <a href="#" class="active sidebar-link">
+              <!-- add active to enable link -->
+              <span>
+                <i class="fa fa-home"></i>
+              </span>
+              صفحه اصلی
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-link">
+              <span>
+                <i class="fa fa-tag"></i>
+              </span>
+              دوره‌ها
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-link">
+              <span>
+                <i class="fa fa-book-bookmark"></i>
+              </span>
+              درباره ما
+            </a>
+          </li>
+        </ul>
+        <div class="sidebar-logout">
+          <a href="#" class="logout">
+            <span>
+              <i class="fa fa-lock"></i>
+            </span>
+            خروج
+          </a>
+        </div>
+      </aside>
+      <!-- End Sidebar -->
+
+      <main class="main">
+        <!-- Navbar -->
+        <nav class="navbar">
+          <div class="navbar-search">
+            <input type="text" name="" id="" placeholder="جستجو کنید...." />
+            <span class="navbar-search-icon">
+              <i class="fa fa-search"></i>
+            </span>
+          </div>
+          <div class="navbar-user-avatar">
+            <img src="asset/images/avatar/avatar.png" alt="" />
+          </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Courses -->
+        <section class="courses">
+          <div class="courses-top">
+            <h2 class="courses-title">دوره ها</h2>
+            <a href="#" class="btn courses-btn-add-new-course"
+              >اضافه کردن دوره جدید</a
+            >
+          </div>
+
+          <!-- Courses List -->
+          <ul class="courses-list">
+            <!-- Data Loaded From app.js -->
+          </ul>
+          <!-- Courses List -->
+        </section>
+        <!-- End Courses -->
+      </main>
+    </div>
+
+    <script src="asset/js/dexie.js"></script>
+    <script src="asset/js/db.js"></script>
+    <script src="asset/js/app.js"></script>
+  </body>
+</html>
