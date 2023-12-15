@@ -1,0 +1,16 @@
+.videoVolumeInputContainer .videoVolumeInput{
+   -webkit-appearance: none;
+   width: 100%;
+   height: 10px;
+   border-radius: 5px;
+   outline: none;
+   background: #5e5e5e;
+   direction: ltr;
+}
+.videoVolumeInputContainer .videoVolumeInput::-webkit-slider-thumb{
+   -webkit-appearance: none;
+   width: 18px;
+   height: 18px;
+   border-radius: 10px;
+   background: rgb(59, 95, 255);
+}
