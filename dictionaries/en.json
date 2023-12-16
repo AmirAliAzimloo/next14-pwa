@@ -1,6 +1,7 @@
 {
-  "test": {
-    "test1": "test en 1",
-    "test2": "test en 2"
+  "home": {
+    "title": "test en title",
+    "desc1": "test en desc",
+    "desc2": "test en 2 desc"
   }
 }

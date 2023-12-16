@@ -12,11 +12,11 @@ export default function Counter({
     <p className='bg-sky-500'>
       This component is rendered on client:
       <button onClick={() => setCount((n) => n - 1)}>
-        {dictionary.test1}
+        {dictionary.desc1}
       </button>
       {count}
       <button onClick={() => setCount((n) => n + 1)}>
-        {dictionary.test2}
+        {dictionary.desc2}
       </button>
     </p>
   )

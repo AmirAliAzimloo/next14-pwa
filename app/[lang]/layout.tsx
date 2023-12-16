@@ -25,7 +25,7 @@ export default function RootLayout({
   params: { lang: string }
 }) { 
   return (
-    <html lang={params.lang}>
+    <html lang={params.lang} dir={params.lang == "fa" ? "rtl" : "ltr"}>
       <body className='bg-green-400' >{children}</body>
     </html>
   )

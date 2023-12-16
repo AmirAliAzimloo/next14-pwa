@@ -16,9 +16,9 @@ export default async function IndexPage({
       <p>Current locale: {lang}</p>
       <p>
         This text is rendered on the server:{' '}
-        {dictionary['test'].test1}
+        {dictionary['home'].title}
       </p>
-      <Counter dictionary={dictionary.test} />
+      <Counter dictionary={dictionary.home} />
     </div>
   )
 }
