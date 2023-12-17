@@ -42,7 +42,7 @@ const RegisterForm = () => {
           router.push("/checkotp")
       }
 
-      
+       
     } catch (error) {
       console.log(error)
     }
