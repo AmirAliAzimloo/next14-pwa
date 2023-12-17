@@ -1,12 +1,13 @@
-import { getDictionary } from '../../get-dictionary'
-import { Locale } from '../../i18n-config'
-import Counter from './components/counter'
-import LocaleSwitcher from './components/locale-switcher'
+import { getDictionary } from '@/get-dictionary'
+import { Locale } from '@/i18n-config'
+import Counter from '@/components/counter'
+import LocaleSwitcher from '@/components/locale-switcher'
+import Link from 'next/link'
 
 export default async function IndexPage({
   params: { lang },
 }: {
-  params: { lang: Locale }
+  params: { lang: Locale } 
 }) {
   const dictionary = await getDictionary(lang)
 

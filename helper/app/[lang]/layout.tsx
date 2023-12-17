@@ -4,8 +4,6 @@ import '../globals.css'
 
 import { i18n } from '@/i18n-config'
 import { Providers } from '@/lib/Providers'
-import LocaleSwitcher from '@/components/locale-switcher'
-import { AuthProvider } from '@/context/AuthContext'
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }))
@@ -29,16 +27,14 @@ export default function RootLayout({
   params: { lang: string }
 }) { 
   return (
-    <html lang={params.lang} dir={params.lang == "fa" ? "rtl" : "ltr"} >
-      <body className='w-full bg-neutral-50' >
-      <AuthProvider>
-      <div className='w-full px-1 h-full' >
-      <Providers>
-       <LocaleSwitcher />
+    <html lang={params.lang} dir={params.lang == "fa" ? "rtl" : "ltr"}>
+      <body className='bg-green-400' >
+
+        <Providers>
         {children}
-      </Providers>
-      </div>
-      </AuthProvider>
+        </Providers>
+
+
       </body>
     </html>
   )

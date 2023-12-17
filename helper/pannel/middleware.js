@@ -13,4 +13,4 @@ export default async function middleware(req, res) {
     }
 
     return NextResponse.next();
-}
+} 

@@ -3,5 +3,10 @@
     "title": "test en title",
     "desc1": "test en desc",
     "desc2": "test en 2 desc"
-  }
+  },
+  "redux":{
+    "title":"testing redux actions",
+    "goto":"go to redux"
+  },
+  "login":"login"
 }
