@@ -1,11 +1,13 @@
+import { TestContext } from "@/context/TestContext";
 import axios from "@/lib/axios/axios";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 
 const Test = () => {
 
     const router = useRouter()
     const pathname = usePathname()
+    const { changeName } = useContext(TestContext)
 
     const checkUserLoggedIn = async()=>{
         try {
@@ -13,6 +15,12 @@ const Test = () => {
             console.log(pathname,"pathname")
             console.log(pathname?.toString()?.split("/")?.[2],"pathname2")
             const user = await axios.post("/api/me");
+            console.log("dkjhgdsh",user)
+
+            if(!!user){
+                changeName(user.data.user.name)
+            }
+
             if(!!user 
                 && (
                 pathname?.toString()?.split("/")?.[2] == "register"
@@ -21,6 +29,7 @@ const Test = () => {
                 ||
                 pathname?.toString()?.split("/")?.[2] == "checkotp"
             )){
+                changeName(user.data.user.name)
                 router.push("/")
             }
             console.log("user =>",user)

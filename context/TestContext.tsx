@@ -3,11 +3,11 @@
 import { createContext, useState } from "react";
 
 interface TestContextProps {
-    user:string;
+    user: string ;
     changeName:(name:string)=>void;
 }
 
-export const TestContext = createContext<TestContextProps | null>(null);
+export const TestContext = createContext({} as TestContextProps);
 
 export const TestProvider = (
     {children} : {children : React.ReactNode}

@@ -1,11 +1,12 @@
 "use client"
 
+import { TestContext } from "@/context/TestContext";
 import axios from "@/lib/axios/axios";
 import { useAppDispatch } from "@/lib/redux/hooks";
 import { setCredentials } from "@/lib/redux/reducers/userSlice";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import * as yup from "yup"
 
@@ -20,6 +21,7 @@ const CheckOtp = () => {
     const [isLoading, setIsLoading] = useState<boolean>(false);
     const router = useRouter();
     const dispatch = useAppDispatch();
+    const { changeName } = useContext(TestContext)
 
     const onSubmit: SubmitHandler<FieldValues> = async(data) => {
         try {
@@ -33,7 +35,8 @@ const CheckOtp = () => {
 
           
     
-          if(!!resApi?.data?.user){ 
+          if(!!resApi?.data?.user){
+              changeName(resApi?.data?.user?.name)
               dispatch(setCredentials(resApi.data))
               router.push("/")
           }

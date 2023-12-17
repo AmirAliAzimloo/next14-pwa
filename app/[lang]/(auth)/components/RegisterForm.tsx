@@ -66,6 +66,8 @@ const RegisterForm = () => {
       <p>{errors.mobile?.message}</p>
      </div>
 
+     
+
       <button className="bg-green-500" type="submit">Register</button>
     </form>
   );
