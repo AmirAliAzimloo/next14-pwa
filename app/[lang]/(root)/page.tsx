@@ -1,3 +1,4 @@
+
 import { getDictionary } from "@/get-dictionary";
 import { Locale } from "@/i18n-config";
 import Link from "next/link";
@@ -18,6 +19,11 @@ const Home = async ({
         <div className="centerAll mt-4 bg-green-500 rounded-sm py-4">
             <Link  href={`/${lang}/login`} >
                 {dictionary.login}
+            </Link> 
+        </div>
+        <div className="centerAll mt-4 bg-rose-500 rounded-sm py-4">
+            <Link  href={`/${lang}/map`} >
+                map
             </Link>
         </div>
       </>
