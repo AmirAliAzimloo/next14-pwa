@@ -9,7 +9,7 @@ export default async function IndexPage({
   params: { lang: Locale } 
 }) {
 
-  console.log("login page")
+
   return (
     <div>
       <LoginForm />

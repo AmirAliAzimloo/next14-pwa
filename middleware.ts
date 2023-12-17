@@ -6,6 +6,9 @@ import { i18n } from './i18n-config'
 import { match as matchLocale } from '@formatjs/intl-localematcher'
 import Negotiator from 'negotiator'
 
+import { parse } from 'cookie';
+
+
 function getLocale(request: NextRequest): string | undefined {
   // Negotiator expects plain object so we need to transform headers
   const negotiatorHeaders: Record<string, string> = {}
@@ -31,6 +34,31 @@ function getLocale(request: NextRequest): string | undefined {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+
+
+  const cookies = parse(request.headers.get('cookie') || '');
+
+  const { token } = cookies;
+
+  console.log('Parsed Cookies:', cookies);
+
+  console.log("***********************************")
+  console.log(request.cookies)
+  console.log(request.cookies.token)
+  console.log(token)
+  console.log("***********************************")
+
+  // if(!token){
+  //     console.log("***********************************")
+  //   console.log(pathname)
+  //     console.log("***********************************")
+
+  //     return NextResponse.redirect(new URL('/fa/login', request.url), { status: 303 });
+
+  // }
+
+
+
 
   // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
   // If you have one
@@ -84,6 +112,7 @@ export const config = {
   // Matcher ignoring `/_next/` and `/api/`
   matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
 }
+
 
 
 

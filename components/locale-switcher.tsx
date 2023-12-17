@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { i18n } from '../i18n-config'
+import Test from "./Test"
 
 export default function LocaleSwitcher() {
   const pathName = usePathname()
@@ -15,6 +16,9 @@ export default function LocaleSwitcher() {
 
   return (
     <div className='bg-white border-b-2' >
+      <div className='hidden' >
+        <Test />
+      </div>
       <ul className='flex' >
         {i18n.locales.map((locale) => {
           return (
