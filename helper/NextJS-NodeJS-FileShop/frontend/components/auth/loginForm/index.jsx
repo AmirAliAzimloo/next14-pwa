@@ -14,7 +14,7 @@ const LoginForm = () => {
       const formData = {
          email: watch("email"),
          password: watch("password"),
-      };
+      }; 
       console.log(formData);
    };
 
