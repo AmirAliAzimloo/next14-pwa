@@ -6,4 +6,4 @@ const InstallPwa = () => {
      );
 }
  
-export default InstallPwa; 
+export default InstallPwa;  
