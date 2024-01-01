@@ -26,6 +26,11 @@ const Home = async ({
                 map
             </Link>
         </div>
+        <div className="centerAll mt-4 bg-sky-500 rounded-sm py-4">
+            <Link  href={`/${lang}/form`} >
+                form
+            </Link>
+        </div>
       </>
     
      );

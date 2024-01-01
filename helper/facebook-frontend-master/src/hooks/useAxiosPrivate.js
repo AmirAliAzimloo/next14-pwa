@@ -42,6 +42,7 @@ const useAxiosPrivate = () => {
       axiosPrivate.interceptors.response.eject(responseIntercept);
     };
   }, [user, dispatch]);
+  
   return axiosPrivate;
 };
 

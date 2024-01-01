@@ -1,9 +1,11 @@
-const Form = () => {
+import Form from "./_components/Form";
+
+const FormPage = () => {
     return ( 
         <>
-        Form
+        <Form />
         </>
      );
 }
  
-export default Form;
+export default FormPage;

@@ -32,7 +32,7 @@ function getLocale(request: NextRequest): string | undefined {
 }
 
 
-export function middleware(request: NextRequest) {
+export function middleware(request: NextRequest) { 
   const pathname = request.nextUrl.pathname;
 
 
@@ -40,13 +40,13 @@ export function middleware(request: NextRequest) {
 
   const { token } = cookies;
 
-  console.log('Parsed Cookies:', cookies);
+  // console.log('Parsed Cookies:', cookies);
 
-  console.log("***********************************")
-  console.log(request.cookies)
-  console.log(request.cookies.token)
-  console.log(token)
-  console.log("***********************************")
+  // console.log("***********************************")
+  // console.log(request.cookies)
+  // console.log(request.cookies.token)
+  // console.log(token)
+  // console.log("***********************************")
 
   // if(!token){
   //     console.log("***********************************")
