@@ -8,7 +8,7 @@ import { CgMiniPlayer } from "react-icons/cg";
 import { RiFullscreenFill } from "react-icons/ri";
 
 import { useState, useRef, useEffect } from "react";
-
+ 
 const VideoPlayer = ({ src }) => {
    const videoRef = useRef();
 
