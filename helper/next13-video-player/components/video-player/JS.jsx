@@ -91,6 +91,7 @@ const VideoPlayer = ({ src }) => {
    return (
       <div className=" flex justify-center items-center text-blue-400">
          <div ref={fullscreenRef} className=" relative w-[95%] max-w-[1000px] ">
+            
             <div className=" ctrls absolute right-2 left-2 bottom-2 z-30 ">
                <div className=" bg-[#000000cc] p-3 rounded-md flex flex-col gap-3 opacity-0 transition-all duration-300 hover:opacity-100  ">
                   <div className="duration bar w-full flex items-center">
@@ -196,6 +197,7 @@ const VideoPlayer = ({ src }) => {
                   </div>
                </div>
             </div>
+
             <video
             onClick={()=>ispalying==1?playingHandler(0):playingHandler(1)}
                ref={videoRef}
