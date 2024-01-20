@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function Accordion({
   data = [
     { name: "a", desc: "dksmlsd" },
-    { name: "b", desc: "dksmlsd" },
+    { name: "b", desc: "dksmlsd" }, 
     { name: "c", desc: "dksmlsd" },
   ],
 }: {
