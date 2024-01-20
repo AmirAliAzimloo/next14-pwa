@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export default function Accordion({
   data = [
-    { name: "a", desc: "dksmlsd" }, 
+    { name: "a", desc: "dksmlsd" },
     { name: "b", desc: "dksmlsd" },
     { name: "c", desc: "dksmlsd" },
   ],
@@ -46,14 +46,14 @@ export default function Accordion({
                       show={disclosuresOpen[index]}
                       enter="transition duration-100 ease-out"
         enterFrom="transform  opacity-0"
-        enterTo="transform  opacity-100"
+        enterTo="transform  opacity-100  "
         leave="transition duration-75 ease-out"
         leaveFrom="transform  opacity-100"
         leaveTo="transform  opacity-0"
                     >
                       <Disclosure.Panel
                         static
-                        className="px-4 pb-2 pt-4 text-sm transition-all text-gray-500"
+                        className="px-4 pb-2 pt-4 text-sm text-gray-500"
                       >
                        {item.desc}
                       </Disclosure.Panel>
