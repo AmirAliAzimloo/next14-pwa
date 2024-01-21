@@ -9,6 +9,7 @@ export default function Accordion({
     { name: "a", desc: "dksmlsd" },
     { name: "b", desc: "dksmlsd" }, 
     { name: "c", desc: "dksmlsd" },
+    
   ],
 }: {
   data: {name:string,desc:string}[];
