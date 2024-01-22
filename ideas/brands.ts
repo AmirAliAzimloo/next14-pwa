@@ -16,7 +16,7 @@ export const brandsApi = createApi({
     },
   }),
   endpoints: (builder) => ({
-    getBrandsForFilter: builder.query({
+    getBrandsForFilter: builder.query({ 
       query: () => "/product/brand",
       transformResponse: (response:any[]) => {
         if (response.length === 0) return [];
