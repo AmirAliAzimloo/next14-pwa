@@ -22,7 +22,7 @@ export const brandsApi = createApi({
         if (response.length === 0) return [];
 
         return response.map(item=>({
-            id:item.id,
+            id:item.id, 
             name:item.name_fa,
             isChecked:false
         }))
