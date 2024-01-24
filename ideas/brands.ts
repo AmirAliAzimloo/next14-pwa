@@ -23,6 +23,9 @@ export const brandsApi = createApi({
 
         return response.map(item=>({
             id:item.id, 
+
+
+            
             name:item.name_fa,
             isChecked:false
         }))
