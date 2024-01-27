@@ -1,6 +1,5 @@
-- suspance in layout of search
-- check isOnline user
-- replace route on search and add new func in custom hook //useMainFilters,SearchFilterNav,MainFilter,SearchInput
-
-- update alt of img brands
-- update img domains in next.config
+- suspance in layout of search //PASS AS WELL AS WE WANT
+- check isOnline user //PASS AS WELL AS WE WANT
+- replace route on search and add new func in custom hook //useMainFilters,SearchFilterNav,MainFilter,SearchInput //PASS AS WELL AS WE WANT
+- update alt of img brands //PASS AS WELL AS WE WANT
+- update img domains in next.config //PASS AS WELL AS WE WANT
