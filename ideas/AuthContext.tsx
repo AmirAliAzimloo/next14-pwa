@@ -129,7 +129,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         setUser(null);
         window.location.assign("/auth/login");
       }
-    } catch (error) {
+    } catch (error) { 
       console.log(error);
     }
   };
