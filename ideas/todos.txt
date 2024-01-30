@@ -1,1 +1,2 @@
-// DONE
+// back to basket when basket is empty
+// back to basket when user is undefined
