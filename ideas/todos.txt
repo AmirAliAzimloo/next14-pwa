@@ -1,0 +1,1 @@
+// refactor search in home and handle search with redux state
