@@ -61,29 +61,29 @@ const CitySelect: React.FC<CitySelectProps> = ({
           options={options}
           getOptionLabel={(option) => option["name"]}
           getOptionValue={(option) => option["id"]}
-          styles={{
-            menuPortal: (base) => ({ ...base, zIndex: 9999 }),
-            control: (provided, state) => ({
-              ...provided,
-              borderColor:
-                state.isFocused && !errors?.[id]
-                  ? "#14b8a6"
-                  : state.isFocused && errors?.[id]
-                  ? "#f43f5e"
-                  : errors?.[id]
-                  ? "#f43f5e"
-                  : "",
-              borderRadius: "6px",
-              boxShadow: "none",
-              color: "#262626",
-              fontSize: 14,
-            }),
-            option: (provided) => ({
-              ...provided,
-              color: "#262626",
-              fontSize: 14,
-            }),
-          }}
+          // styles={{
+          //   menuPortal: (base) => ({ ...base, zIndex: 9999 }),
+          //   control: (provided, state) => ({
+          //     ...provided,
+          //     borderColor:
+          //       state.isFocused && !errors?.[id]
+          //         ? "#14b8a6"
+          //         : state.isFocused && errors?.[id]
+          //         ? "#f43f5e"
+          //         : errors?.[id]
+          //         ? "#f43f5e"
+          //         : "",
+          //     borderRadius: "6px",
+          //     boxShadow: "none",
+          //     color: "#262626",
+          //     fontSize: 14,
+          //   }),
+          //   option: (provided) => ({
+          //     ...provided,
+          //     color: "#262626",
+          //     fontSize: 14,
+          //   }),
+          // }}
           name={id}
           placeholder={placeHolder}
         />

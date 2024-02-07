@@ -17,8 +17,8 @@ const Home = async ({
       <>
         <User />
         <div className="centerAll mt-4 bg-green-500 rounded-sm py-4">
-            <Link  href={`/${lang}/login`} >
-                {dictionary.login}
+            <Link  href={`/${lang}/map`} >
+                {"dictionary.login"}
             </Link> 
         </div>
         <div className="centerAll mt-4 bg-rose-500 rounded-sm py-4">
