@@ -38,7 +38,7 @@ const MapWithNoSSR: React.FC<MapProps> = ({
 
   const [mapState, setMapState] = useState<any>(null);
 
-  const Draggable = () => {
+  const Draggable = memo(() => {
     let map = useMapEvents({
       dragend: (e) => {
         setPosition(e.target.getCenter());
@@ -54,7 +54,7 @@ const MapWithNoSSR: React.FC<MapProps> = ({
 
     setMapState(map);
     return null;
-  };
+  });
 
   useEffect(() => {
     if (mapState) {

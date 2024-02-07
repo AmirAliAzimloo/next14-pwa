@@ -1,12 +1,213 @@
 {
+  "mobile_number": "Mobile Number",
   "home": {
-    "title": "test en title",
-    "desc1": "test en desc",
-    "desc2": "test en 2 desc"
+    "title": "Main Home Text",
+    "search": "Search for products, brands, and categories"
   },
-  "redux":{
-    "title":"testing redux actions",
-    "goto":"go to redux"
+  "company": {
+    "title": "Company",
+    "detail": "Company Information",
+    "enter": "Enter the Company",
+    "about": {
+      "company_desc": "Company Description",
+      "comments": "Comments",
+      "create_comment": "Create Comment"
+    },
+    "product": "Product",
+    "brand": "Brand",
+    "category": "Category"
   },
-  "login":"login"
+  "auth": {
+    "login": {
+      "loginform": {
+        "login_with_otp": "Login with OTP",
+        "login_with_password": "Login with Password",
+        "dontHaveAccount": "Don't have an account?",
+        "createAccount": "Create Account"
+      },
+      "navbar": {
+        "POSNAME": "+POS",
+        "welcome": "Welcome",
+        "into": "to the Nationwide System"
+      },
+      "otp": {
+        "putsms": "Enter the SMS code",
+        "putpassword": "Enter the password",
+        "currentcode": "Verification Code",
+        "login": "Login",
+        "resendOtp": "Resend OTP",
+        "password": "Password"
+      },
+      "sectiondesc": "If you have an account, please enter your mobile number and specify your login method."
+    },
+    "register": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "mobile_number": "Mobile Number",
+      "activity_field": "Activity Field",
+      "national_code": "National Code",
+      "province": "Province",
+      "city": "City",
+      "area": "Area",
+      "address": "Address",
+      "continiue": "Register and Continue",
+      "register": "Register and Login",
+      "add_address": "Add Address",
+      "email": "Email",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "act_code": "Role Code",
+      "add": "Add",
+      "nationalUploader": "Upload National ID Image"
+    }
+  },
+  "menu": {
+    "title": "Account Information",
+    "items": {
+      "user": "Edit Information",
+      "orders": "Orders",
+      "messages": "Messages",
+      "report_financial": "Financial Report",
+      "about": "About Us",
+      "call_support": "Contact Support",
+      "chat_support": "Chat with Support",
+      "guide": "Guide",
+      "change_locale": "Change Language"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "mobile": "Must be exactly 11 characters",
+    "referallCode": "Must be exactly 4 characters",
+    "true_characters": "Enter the correct format",
+    "national_code_err": "National code must be numeric and exactly 10 characters",
+    "email_err": "Enter a valid email",
+    "confirm_password_err": "Passwords do not match"
+  },
+  "fields": {
+    "mobile_number": "Mobile Number"
+  },
+  "order": {
+    "title": "Orders",
+    "tab_registered": "Registered",
+    "tab_confirmed": "Confirmed",
+    "tab_rejected": "Rejected",
+    "order_not_found": "No orders have been registered",
+    "order_code": "Order Code",
+    "sale": "Discount",
+    "tax": "Duties and Taxes",
+    "pay": "Amount Paid",
+    "total_pay": "Total Amount"
+  },
+  "messages": {
+    "title": "Messages"
+  },
+  "report_financial": {
+    "title": "Financial Report"
+  },
+  "about": {
+    "title": "About Us"
+  },
+  "call_support": {
+    "title": "Contact Support"
+  },
+  "chat_support": {
+    "title": "Chat with Support"
+  },
+  "guide": {
+    "title": "Guide ",
+    "order_guide": "Order Registration Guide",
+    "report_guide": "Receiving Reports Guide"
+  },
+  "change_locale": {
+    "title": "Change Language"
+  },
+  "share_app": {
+    "title": "Share the App"
+  },
+  "log_out": {
+    "title": "Log Out"
+  },
+  "version": {
+    "title": "Version 0.0.1"
+  },
+  "footer": {
+    "home": "Home",
+    "promotions": "Promotions",
+    "basket": "Shopping Cart"
+  },
+  "search": {
+    "title": "Search",
+    "notFoundProduct": "Product not found..."
+  },
+  "filters": {
+    "title": "Filters",
+    "promotions": "Discount Percentage (Highest)",
+    "new": "Newest",
+    "cheap": "Cheapest",
+    "expensive": "Most Expensive",
+    "best_sale": "Best Sellers",
+    "brand_title": "Brand",
+    "category_title": "Category",
+    "filter_done": "Apply Filter",
+    "remove_filter": "Remove Filter"
+  },
+  "products": {
+    "consumer_price": "Consumer Price",
+    "sales_price": "Purchase Price"
+  },
+  "single_product": {
+    "details": "Product Details",
+    "product_detail": "Item Details",
+    "promotions_benefits": "Awards and Discounts",
+    "comments": "Comments",
+    "sales_price": "Purchase Price",
+    "consumer_price": "Consumer Price",
+    "total_product_price": "Total Product Price",
+    "weight": "Weight (grams)",
+    "company_name": "company name",
+    "markup_price": "Your Profit",
+    "notHaveBenefit": "No awards or discounts available",
+    "create_comment": "Submit Comment",
+    "comment_placeHolder": "Enter your comment",
+    "successfully_create_comment": "Your comment has been successfully submitted",
+    "create_first_comment": "Submit the first comment",
+    "all_total_price": "Total Final Price",
+    "total_price": "Total Price"
+  },
+  "basket": {
+    "emptyBasket": "Your shopping basket is empty",
+    "emptyBasketInCompany": "Your shopping basket is empty in this company",
+    "gotoBasket": "Complete Purchase",
+    "confirm_delete_1": "Are you sure you want to empty your shopping basket ",
+    "confirm_delete_2": "?",
+    "cancel": "Cancel",
+    "yes_delete": "Yes, delete it",
+    "delete": "Delete",
+    "disc": "Discount",
+    "disc_pro": "+POS Special Discount",
+    "tax": "Tax Duties",
+    "profit_single": "Your Profit",
+    "totale_single_price": "Amount Payable",
+    "col": "Total",
+    "fi": "per",
+    "description": "Description",
+    "payment_method_field": "Payment Method",
+    "select_data": "Select Date",
+    "receive_by_list_share": "Delivery according to the distribution list",
+    "send_method": "Delivery Method",
+    "order_pay": "Order Amount",
+    "send_order": "Send Order"
+  },
+  "survey": {
+    "submit": "Submit Answer",
+    "upload": "Upload Image",
+    "not_found": "No survey found",
+    "errMultiQue": "Correctly fill in the multiple-choice answer",
+    "errSingleQue": "Correctly fill in the single-choice answer",
+    "errTextQue": "Correctly fill in the descriptive answer",
+    "errNumberQue": "Correctly fill in the numerical answer",
+    "errImgQue": "Correctly fill in the image answer",
+    "create_survey_successfully": "Your opinion has been successfully submitted"
+  }
 }

@@ -1,13 +1,217 @@
 {
-    "home": {
-      "title": "متن اصلی خانه",
-      "desc1": "متن فرعی خانه",
-      "desc2": "متن  2 فرعی خانه"
+  "mobile_number": "شماره موبایل",
+  "home": {
+    "title": "متن اصلی خانه",
+    "search": "جست و جوی کالا،برند و دسته بندی"
+  },
+  "company": {
+    "title": "شرکت",
+    "detail": "اطلاعات شرکت",
+    "enter": "ورود به شرکت",
+    "about": {
+      "company_desc": "توضیحات شرکت",
+      "comments": "نظرات",
+      "create_comment": "ثبت نظر"
     },
-    "redux":{
-      "title":"تست اکشن های ریداکس",
-      "goto":"رفتن به ریداکس"
+    "product": "کالا",
+    "brand": "برند",
+    "category": "دسته بندی"
+  },
+  "auth": {
+    "login": {
+      "loginform": {
+        "login_with_otp": "ورود با کد ارسالی",
+        "login_with_password": "ورود با رمز عبور",
+        "dontHaveAccount": "آیا حسابی ندارید؟",
+        "createAccount": "ثبت نام"
+      },
+      "navbar": {
+        "POSNAME": "+POS",
+        "welcome": "خوش آمدید",
+        "into": "به سامانه سراسری"
+      },
+      "otp": {
+        "putsms": "کد پیامک شده را وارد کنید",
+        "putpassword": "رمز عبور را وارد کنید",
+        "currentcode": "کد تایید",
+        "login": "ورود",
+        "resendOtp": "ارسال دوباره",
+        "password": "رمز عبور"
+      },
+      "sectiondesc": "در صورت داشتن حساب کاربری ، لطفا شماره موبایل خود را وارد کرده و روش ورود خود را مشخص کنید."
     },
-    "login":"ثبت نام"
+    "register": {
+      "first_name": "نام",
+      "last_name": "نام خانوادگی",
+      "mobile_number": "شماره موبایل",
+      "activity_field": "زمینه فعالیت",
+      "national_code": "کد ملی",
+      "province": "استان",
+      "city": "شهر",
+      "area": "منطقه",
+      "address": "آدرس",
+      "continiue": "ثبت و ادامه",
+      "register": "ثبت نام و ورود",
+      "add_address": "ثبت آدرس",
+      "email": "ایمیل",
+      "password": "رمز عبور",
+      "confirm_password": "تکرار رمز عبور",
+      "act_code": "کد نقش",
+      "add": "ثبت",
+      "nationalUploader": "آپلود تصویر کارت ملی"
+    }
+  },
+  "menu": {
+    "title": "اطلاعات حساب کاربری",
+    "items": {
+      "user": "ویرایش اطلاعات",
+      "orders": "سفارشات",
+      "messages": "پیام ها",
+      "report_financial": "گزارش مالی",
+      "about": "درباره ما",
+      "call_support": "تماس با پشتیبانی",
+      "chat_support": "چت با پشتیبانی",
+      "guide": "راهنما",
+      "change_locale": "تغییر زبان"
+    }
+  },
+  "validation": {
+    "required": "این فیلد اجباری است",
+    "mobile": "بیشتر یا کم تر از 11 کاراکتر صحیح نمی باشد",
+    "referallCode": "بیشتر یا کم تر از 4 کاراکتر صحیح نمی باشد",
+    "true_characters": "فرمت را صحیح وارد کنید",
+    "national_code_err": "کد ملی فقط عدد و ده کاراکتر و صحیح باید باشد",
+    "email_err": "ایمیل را صحیح وارد کنید",
+    "confirm_password_err": "رمز عبور مفایرت دارد"
+  },
+  "fields": {
+    "mobile_number": "شماره موبایل"
+  },
+  "order": {
+    "title": "سفارشات",
+    "tab_registered": "ثبت شده",
+    "tab_confirmed": "تایید شده",
+    "tab_rejected": "رد شده",
+    "order_not_found": "سفارشی ثبت نشده است",
+    "order_code": "کد سفارش",
+    "sale": "تخفیف",
+    "tax": "عوارض و مالیات",
+    "pay": "مبلغ پرداختی",
+    "total_pay": "مبلغ کل"
+  },
+  "messages": {
+    "title": "پیام ها"
+  },
+  "report_financial": {
+    "title": "گزارش مالی"
+  },
+  "about": {
+    "title": "درباره ما"
+  },
+  "call_support": {
+    "title": "تماس با پشتیبانی"
+  },
+  "chat_support": {
+    "title": "چت با پشتیبانی"
+  },
+  "guide": {
+    "title": "راهنما ",
+    "order_guide": "آموزش ثبت سفارش",
+    "report_guide": "آموزش دریافت گزارشات"
+  },
+  "change_locale": {
+    "title": "تغییر زبان"
+  },
+  "share_app": {
+    "title": "اشتراک گذاری نرم افزار"
+  },
+  "log_out": {
+    "title": "خروج"
+  },
+  "version": {
+    "title": "ورژن 0.0.1"
+  },
+  "footer": {
+    "home": "خانه",
+    "promotions": "تخفیفات",
+    "basket": "سبد خرید"
+  },
+  "search": {
+    "title": "جست و جو",
+    "notFoundProduct": "محصول یافت نشد ...",
+    "notFoundBrand": "برندی یافت نشد ...",
+    "notFoundCategory": "دسته بندی ای یافت نشد ..."
+  },
+  "filters": {
+    "title": "فیلتر ها",
+    "promotions": "درصد تخفیف (بیشترین)",
+    "new": "جدید ترین",
+    "cheap": "ارزان ترین",
+    "expensive": "گران ترین",
+    "best_sale": "پر فروش ترین",
+    "brand_title": "برند",
+    "category_title": "دسته بندی",
+    "filter_done": "اعمال فیلتر",
+    "remove_filter": "حذف فیلتر"
+  },
+  "products": {
+    "consumer_price": "قیمت مصرف کننده",
+    "sales_price": "قیمت خرید"
+  },
+  "single_product": {
+    "details": "جزئیات محصول",
+    "product_detail": "جزئیات کالا",
+    "promotions_benefits": "جوایز و تخفیفات",
+    "comments": "نظرات",
+    "sales_price": "قیمت خرید",
+    "consumer_price": "قیمت مصرف کننده",
+    "total_product_price": "قیمت تمام شده کالا",
+    "weight": "وزن(گرم)",
+    "company_name": "نام شرکت",
+    "markup_price": "سود شما",
+    "notHaveBenefit": "جوایز و تخفیفاتی وجود ندارد",
+    "create_comment": "ثبت نظر",
+    "comment_placeHolder": "نظر خود را ثبت کنید",
+    "successfully_create_comment": "نظر شما با موفقیت ثبت شد",
+    "create_first_comment": "اولین نظر را ثبت کنید",
+    "all_total_price": "قیمت تمام شده کل",
+    "total_price": "جمع کل قیمت"
+  },
+  "basket": {
+    "emptyBasket": "سبد خرید شما خالی است",
+    "emptyBasketInCompany": "سبد خرید شما در این شرکت خالی است",
+    "gotoBasket": "تکمیل خرید",
+    "clear_basket_title": "خالی کردن سبد خرید",
+    "confirm_delete_1": "آیا از خالی کردن سبد خرید ",
+    "confirm_delete_2": " اطمینان دارید؟",
+    "cancel": "لغو",
+    "yes_delete": "بله،حذف شود",
+    "delete": "حذف",
+    "disc": "تخفیف",
+    "disc_pro": "تخفیف ویژه pos+",
+    "tax": "عوارض مالیات",
+    "profit_single": "سود شما",
+    "totale_single_price": "مبلغ قابل پرداخت",
+    "col": "کل",
+    "fi": "فی",
+    "description": "توضیحات",
+    "payment_method_field": "روش پرداخت",
+    "select_data": "انتخاب تاریخ",
+    "receive_by_list_share": "تحویل طبق لیست پخش",
+    "send_method": "روش ارسال",
+    "order_pay": "مبلغ سفارش",
+    "discount_payment": "تخفیف نحوه پرداخت",
+    "send_order": "ارسال سفارش"
+  },
+  "survey": {
+    "submit": "ثبت پاسخ",
+    "upload": "آپلود تصویر",
+    "not_found": "نظر سنجی ای یافت نشد",
+    "errMultiQue": "پاسخ چند گزینه ای را درست پر کنید",
+    "errSingleQue": "پاسخ تک گزینه ای را درست پر کنید",
+    "errTextQue": "پاسخ توضیحی را درست پر کنید",
+    "errNumberQue": "پاسخ عددی را درست پر کنید",
+    "errImgQue": "پاسخ تصویری را درست پر کنید",
+    "create_survey_successfully": "نظر شما با موفقیت ثبت شد"
   }
-  
+}
