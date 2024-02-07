@@ -30,7 +30,7 @@ export const AuthProvider = ({ children } : { children : React.ReactNode }) => {
   const router = useRouter();
 
   useEffect(() => {
-    checkUserLoggedIn();
+    // checkUserLoggedIn();
   }, []);
 
   const login = async (cellphone: string): Promise<void> => {
