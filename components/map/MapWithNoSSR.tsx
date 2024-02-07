@@ -117,7 +117,7 @@ const MapWithNoSSR: React.FC<MapProps> = ({
 
       <div
         className={
-          `absolute  left-0 bottom-0 right-0`
+          `absolute  left-0 bottom-0 right-0 h-screen w-screen`
         }
       >
         <div
