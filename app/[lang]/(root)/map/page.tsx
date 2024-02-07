@@ -1,12 +1,17 @@
-import dynamic from "next/dynamic";
+
+import MyMap from "@/components/map/Map"
 
 
-const MapComponent = dynamic(() => import('@/components/Map'), { ssr: false })
 
 
 const Map = () => {
     return ( 
-        <MapComponent />
+        <MyMap
+        showMap={true}
+        setShowMap={()=>{}}
+        setValue={()=>{}}
+        btnTitle={"locales.add_address"}
+      />
      );
 }
  

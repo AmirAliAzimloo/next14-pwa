@@ -7,8 +7,8 @@ import { FieldErrors, FieldValues, UseFormRegister } from "react-hook-form";
 
 interface InputProps{
     label:string,
-    register:UseFormRegister<FieldValues>,
-    errors:FieldErrors,
+    register:UseFormRegister<any>,
+    errors?:FieldErrors,
     name:string
 }
 
@@ -23,7 +23,7 @@ const Input: React.FC<InputProps> = ({
         <div>
           <label>{label}</label>
           <input {...register("mobile")} className="bg-teal-500" />
-          {errors?.[name] && <p>{errors[name].message}</p>}
+          {/* {(errors as Record<string, any>)[id]?.message} */}
         </div>
   );
 };

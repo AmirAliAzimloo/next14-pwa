@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-import { i18n } from './libs/i18n/i18n-config'
 import { cookies } from 'next/headers';
+import { i18n } from './i18n-config';
 
 
 export function middleware(request: NextRequest) {

@@ -2,7 +2,7 @@
 
 import { createContext, useState } from "react";
 
-interface TestContextProps {
+interface TestContextProps { 
     user: string ;
     changeName:(name:string)=>void;
 }
