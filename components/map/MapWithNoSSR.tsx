@@ -113,6 +113,13 @@ const MapWithNoSSR: React.FC<MapProps> = ({
 
   return (
     <>
+    <button
+    style={{ zIndex: 99999999999 }}
+    className="absolute bottom-48 left-4 bg-red-600 z-50"
+    onClick={getCurrentLocation}
+    >
+      get loc
+    </button>
       <Navbar setShowMap={setShowMap} forEdit={forEdit} />
 
       <div
