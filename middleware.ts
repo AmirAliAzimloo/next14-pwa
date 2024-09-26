@@ -66,6 +66,7 @@ export function middleware(request: NextRequest) {
     [
       '/manifest.json',
       '/favicon.ico',
+      '/firebase-messaging-sw.js',
       '/sw.js',
       '/next.svg',
       '/sw.js.map',

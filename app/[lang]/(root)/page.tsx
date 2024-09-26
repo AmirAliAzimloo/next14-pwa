@@ -2,7 +2,7 @@
 import { getDictionary } from "@/get-dictionary";
 import { Locale } from "@/i18n-config";
 import Link from "next/link";
-import User from "./components/User"
+import User from "./_components/User"
 
 const Home = async ({
     params: { lang },
