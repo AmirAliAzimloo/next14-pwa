@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.next14_pwa.twa",
+        "sha256_cert_fingerprints": [
+          "08:AB:AC:E9:15:0C:F1:94:2C:86:3C:E1:82:E8:BC:B6:71:CF:D9:6B",
+          "7F:82:42:DB:27:14:18:C3:64:A9:EF:D5:68:3D:2E:C7:C6:0C:5D:57:C6:1A:6E:6E:80:C3:BC:FE:BF:A4:B1:34"
+        ]
+      }
+    }
+  ]
