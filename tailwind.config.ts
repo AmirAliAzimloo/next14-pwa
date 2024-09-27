@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        icon: ['var(--custom-font-icon)']
+      }
     },
   },
   plugins: [],

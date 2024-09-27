@@ -22,6 +22,7 @@ const User = () => {
     
     return ( 
         <div>
+            <i className="next14-pwa-home font-icon bg-red-500 text-sky-500" />
             UserName : {user}
         </div>
      );

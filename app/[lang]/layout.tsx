@@ -1,15 +1,24 @@
 import type { Metadata, Viewport } from 'next'
-import '../globals.css'
 
+import '../globals.css'
+import '@/public/icomoon/style.css';
 
 import { i18n } from '@/i18n-config'
 import { Providers } from '@/lib/Providers'
 import LocaleSwitcher from '@/components/locale-switcher'
 import { TestProvider } from '@/context/TestContext'
+import localFont from 'next/font/local';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }))
 }
+
+const customFontIcon = localFont({
+  src: '../../public/icomoon/fonts/custom-icon-font.woff',
+  display: 'swap',
+  variable: '--custom-font-icon',
+})
+
 
 export const metadata: Metadata = {
   manifest:"/manifest.json",
@@ -29,7 +38,7 @@ export default function RootLayout({
   params: { lang: string }
 }) { 
   return (
-    <html lang={params.lang} dir={params.lang == "fa" ? "rtl" : "ltr"} >
+    <html lang={params.lang} dir={params.lang == "fa" ? "rtl" : "ltr"} className={customFontIcon.variable} >
       <body className='w-full bg-neutral-50' >
       {/* <TestProvider> */}
       <div className='w-full px-1 h-full' >

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'custom-icon-font';
+  src:  url('fonts/custom-icon-font.eot?hk0ade');
+  src:  url('fonts/custom-icon-font.eot?hk0ade#iefix') format('embedded-opentype'),
+    url('fonts/custom-icon-font.ttf?hk0ade') format('truetype'),
+    url('fonts/custom-icon-font.woff?hk0ade') format('woff'),
+    url('fonts/custom-icon-font.svg?hk0ade#custom-icon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="next14-pwa-"], [class*=" next14-pwa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'custom-icon-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.next14-pwa-home:before {
+  content: "\e900";
+}
+.next14-pwa-home2:before {
+  content: "\e901";
+}
+.next14-pwa-home3:before {
+  content: "\e902";
+}

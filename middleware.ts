@@ -64,9 +64,14 @@ export function middleware(request: NextRequest) {
   // If you have one
   if (
     [
+      '/firebase-messaging-sw.js',
+      '/icomoon/style.css',
+      '/icomoon/fonts/custom-icon-font.eot',
+      '/icomoon/fonts/custom-icon-font.svg',
+      '/icomoon/fonts/custom-icon-font.ttf',
+      '/icomoon/fonts/custom-icon-font.woff',
       '/manifest.json',
       '/favicon.ico',
-      '/firebase-messaging-sw.js',
       '/sw.js',
       '/next.svg',
       '/sw.js.map',
