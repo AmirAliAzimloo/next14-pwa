@@ -4,6 +4,7 @@ import { Locale } from "@/i18n-config";
 import Link from "next/link";
 import User from "./_components/User"
 import CustomSelect from "./_components/select";
+import { DropdownMenuDemo } from "./_components/drop-down";
 
 const Home = async ({
     params: { lang },
@@ -19,6 +20,7 @@ const Home = async ({
         {/* <CustomCarousel /> */}
         <div className="mx-auto w-full max-w-sm my-10">
         <CustomSelect />
+        {/* <DropdownMenuDemo /> */}
         </div>
         {/* <User />
         <div className="centerAll mt-4 bg-green-500 rounded-sm py-4">

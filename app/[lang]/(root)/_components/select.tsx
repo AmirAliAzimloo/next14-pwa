@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react"
 
 import {
@@ -13,12 +15,14 @@ import Image from "next/image";
 
 const SelectScrollable = () => {
   return (
-    <Select>
-      <SelectTrigger className="">
+    <Select   onValueChange={(e)=>{
+      console.log(e,'log_00')
+    }}>
+      <SelectTrigger >
         <SelectValue placeholder="Select a timezone" />
       </SelectTrigger>
-      <SelectContent >
-          <SelectItem value="est">
+      <SelectContent>
+          <SelectItem value={"test"}>
             <div>
                 <Image 
                 width={50}
