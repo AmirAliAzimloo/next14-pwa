@@ -1,0 +1,314 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="app.vercel.next14_pwa.twa"
+26    android:versionCode="1"
+27    android:versionName="1" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="19"
+31        android:targetSdkVersion="35" />
+32
+33    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+33-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:26:9-80
+33-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:26:26-78
+34    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+34-->[com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:11:5-79
+34-->[com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:11:22-76
+35    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+35-->[com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:12:5-81
+35-->[com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:12:22-78
+36
+37    <queries>
+37-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:26:5-34:15
+38        <intent>
+38-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:27:9-33:18
+39            <action android:name="android.intent.action.VIEW" />
+39-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:137:17-68
+39-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:137:25-66
+40
+41            <category android:name="android.intent.category.BROWSABLE" />
+41-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:139:17-77
+41-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:139:27-75
+42
+43            <data android:scheme="https" />
+43-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:140:17-141:54
+43-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:140:23-45
+44        </intent>
+45    </queries>
+46
+47    <application
+47-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:35:5-187:19
+48        android:name="app.vercel.next14_pwa.twa.Application"
+48-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:36:9-35
+49        android:allowBackup="true"
+49-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:37:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.2.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+51        android:extractNativeLibs="true"
+52        android:icon="@mipmap/ic_launcher"
+52-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:38:9-43
+53        android:label="@string/appName"
+53-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:39:9-40
+54        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+54-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:41:9-105
+55        android:supportsRtl="true"
+55-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:43:9-35
+56        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+56-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:44:9-68
+57        <meta-data
+57-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:46:9-48:58
+58            android:name="asset_statements"
+58-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:47:13-44
+59            android:resource="@string/assetStatements" />
+59-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:48:13-55
+60        <meta-data
+60-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:51:13-53:58
+61            android:name="web_manifest_url"
+61-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:52:17-48
+62            android:value="@string/webManifestUrl" />
+62-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:53:17-55
+63        <meta-data
+63-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:56:9-58:52
+64            android:name="twa_generator"
+64-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:57:13-41
+65            android:value="@string/generatorApp" />
+65-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:58:13-49
+66
+67        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+67-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:65:13-69:24
+67-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:65:23-104
+68            <meta-data
+68-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:66:13-68:53
+69                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+69-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:67:17-83
+70                android:value="@string/launchUrl" />
+70-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:68:17-50
+71        </activity>
+72        <activity
+72-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:72:9-145:20
+73            android:name="app.vercel.next14_pwa.twa.LauncherActivity"
+73-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:72:19-50
+74            android:alwaysRetainTaskState="true"
+74-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:73:13-49
+75            android:exported="true"
+75-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:75:13-36
+76            android:label="@string/launcherName" >
+76-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:74:13-49
+77            <meta-data
+77-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:76:13-77:53
+78                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+78-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:76:24-85
+79                android:value="@string/launchUrl" />
+79-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:77:17-50
+80            <meta-data
+80-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:79:13-81:58
+81                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+81-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:80:17-83
+82                android:resource="@color/colorPrimary" />
+82-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:81:17-55
+83            <meta-data
+83-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:83:13-85:62
+84                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+84-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:84:17-88
+85                android:resource="@color/colorPrimaryDark" />
+85-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:85:17-59
+86            <meta-data
+86-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:87:13-89:61
+87                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+87-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:88:17-87
+88                android:resource="@color/navigationColor" />
+88-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:89:17-58
+89            <meta-data
+89-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:91:13-93:65
+90                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+90-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:92:17-92
+91                android:resource="@color/navigationColorDark" />
+91-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:93:17-62
+92            <meta-data
+92-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:95:13-97:68
+93                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+93-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:96:17-84
+94                android:resource="@color/navigationDividerColor" />
+94-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:97:17-65
+95            <meta-data
+95-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:99:13-101:72
+96                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+96-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:100:17-89
+97                android:resource="@color/navigationDividerColorDark" />
+97-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:101:17-69
+98            <meta-data
+98-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:103:13-104:54
+99                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+99-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:103:24-95
+100                android:resource="@drawable/splash" />
+100-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:104:17-52
+101            <meta-data
+101-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:106:13-107:60
+102                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+102-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:106:24-104
+103                android:resource="@color/backgroundColor" />
+103-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:107:17-58
+104            <meta-data
+104-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:109:13-110:71
+105                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+105-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:109:24-105
+106                android:value="@integer/splashScreenFadeOutDuration" />
+106-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:110:17-69
+107            <meta-data
+107-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:112:13-113:60
+108                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+108-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:112:24-97
+109                android:value="@string/providerAuthority" />
+109-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:113:17-58
+110            <meta-data
+110-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:115:13-97
+111                android:name="android.app.shortcuts"
+111-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:115:24-60
+112                android:resource="@xml/shortcuts" />
+112-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:115:61-94
+113            <meta-data
+113-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:117:13-118:56
+114                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+114-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:117:24-91
+115                android:value="@string/fallbackType" />
+115-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:118:17-53
+116            <meta-data
+116-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:124:13-125:54
+117                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+117-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:124:24-92
+118                android:value="@string/orientation" />
+118-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:125:17-52
+119
+120            <intent-filter>
+120-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:131:13-134:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:132:17-69
+121-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:132:25-66
+122
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:133:17-77
+123-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:133:27-74
+124            </intent-filter>
+125            <intent-filter android:autoVerify="true" >
+125-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:136:13-142:29
+125-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:136:28-53
+126                <action android:name="android.intent.action.VIEW" />
+126-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:137:17-68
+126-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:137:25-66
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:138:17-76
+128-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:138:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:139:17-77
+129-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:139:27-75
+130
+131                <data
+131-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:140:17-141:54
+132                    android:host="@string/hostName"
+132-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:141:21-52
+133                    android:scheme="https" />
+133-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:140:23-45
+134            </intent-filter>
+135        </activity>
+136        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+136-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:147:9-90
+136-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:147:19-87
+137        <activity
+137-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:149:9-150:62
+138            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+138-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:149:19-97
+139            android:configChanges="orientation|screenSize" />
+139-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:150:13-59
+140
+141        <provider
+141-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:152:9-160:20
+142            android:name="androidx.core.content.FileProvider"
+142-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:153:13-62
+143            android:authorities="@string/providerAuthority"
+143-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:154:13-60
+144            android:exported="false"
+144-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:156:13-37
+145            android:grantUriPermissions="true" >
+145-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:155:13-47
+146            <meta-data
+146-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:157:13-159:53
+147                android:name="android.support.FILE_PROVIDER_PATHS"
+147-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:158:17-67
+148                android:resource="@xml/filepaths" />
+148-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:159:17-50
+149        </provider>
+150
+151        <service
+151-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:162:9-177:19
+152            android:name="app.vercel.next14_pwa.twa.DelegationService"
+152-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:163:13-46
+153            android:enabled="@bool/enableNotification"
+153-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:164:13-55
+154            android:exported="@bool/enableNotification" >
+154-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:165:13-56
+155            <meta-data
+155-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:168:17-170:73
+156                android:name="android.support.customtabs.trusted.SMALL_ICON"
+156-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:169:21-81
+157                android:resource="@drawable/ic_notification_icon" />
+157-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:170:21-70
+158
+159            <intent-filter>
+159-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:173:13-176:29
+160                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+160-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:174:17-105
+160-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:174:25-103
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:138:17-76
+162-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:138:27-73
+163            </intent-filter>
+164        </service>
+165
+166        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
+166-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:180:13-118
+166-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:180:23-115
+167        <activity android:name="com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity" />
+167-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:184:13-185:89
+167-->/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:184:23-123
+168        <activity
+168-->[com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+169            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+169-->[com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+170            android:exported="false"
+170-->[com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+171            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+171-->[com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+172
+173        <meta-data
+173-->[com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+174            android:name="com.google.android.gms.version"
+174-->[com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+175            android:value="@integer/google_play_services_version" />
+175-->[com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+176    </application>
+177
+178</manifest>

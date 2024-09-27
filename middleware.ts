@@ -82,6 +82,7 @@ export function middleware(request: NextRequest) {
       '/icons/icon-192x192.png',
       '/icons/icon-384x384.png',
       '/icons/icon-512x512.png',
+      '/.well-known/assetlinks.json',
       // Your other files in `public`
 
 

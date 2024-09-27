@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-xxxhdpi_ic_notification_icon.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-xxxhdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-xxxhdpi_splash.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-xxxhdpi/splash.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/xml_shortcuts.xml.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/xml/shortcuts.xml"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-xxhdpi_splash.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-xxhdpi/splash.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/xml_filepaths.xml.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/xml/filepaths.xml"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-mdpi_splash.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-mdpi/splash.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-anydpi_shortcut_legacy_background.xml.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-anydpi/shortcut_legacy_background.xml"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-hdpi_splash.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-xhdpi_ic_notification_icon.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-xhdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-mdpi_ic_notification_icon.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-mdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-hdpi_ic_notification_icon.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-hdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-xxhdpi_ic_notification_icon.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-xxhdpi/ic_notification_icon.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/drawable-xhdpi_splash.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/drawable-xhdpi/splash.png"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/raw_web_app_manifest.json.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/raw/web_app_manifest.json"
+    },
+    {
+        "merged": "app.vercel.next14_pwa.twa.app-release-10:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "app.vercel.next14_pwa.twa.app-main-11:/mipmap-xhdpi/ic_launcher.png"
+    }
+]
