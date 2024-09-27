@@ -80,8 +80,8 @@ export function middleware(request: NextRequest) {
       '/workbox-7144475a.js',
       '/workbox-7144475a.js.map',
       '/icons/icon-192x192.png',
-      '/icons/icon-384*384.png',
-      '/icons/icon-512*512.png',
+      '/icons/icon-384x384.png',
+      '/icons/icon-512x512.png',
       // Your other files in `public`
 
 
