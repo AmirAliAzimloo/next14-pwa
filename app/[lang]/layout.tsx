@@ -31,14 +31,14 @@ export default function RootLayout({
   return (
     <html lang={params.lang} dir={params.lang == "fa" ? "rtl" : "ltr"} >
       <body className='w-full bg-neutral-50' >
-      <TestProvider>
+      {/* <TestProvider> */}
       <div className='w-full px-1 h-full' >
       <Providers>
        <LocaleSwitcher />
         {children}
       </Providers>
       </div>
-      </TestProvider>
+      {/* </TestProvider> */}
       </body>
     </html>
   )
