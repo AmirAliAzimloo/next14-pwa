@@ -208,4 +208,5 @@ dependencies {
     
         implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.5.0'
     
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
 }

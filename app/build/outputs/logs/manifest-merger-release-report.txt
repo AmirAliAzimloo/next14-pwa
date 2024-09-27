@@ -6,6 +6,7 @@ INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/And
 INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-188:12
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8b0430d7a43a0932acd7449379328644/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.browser:browser:1.4.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b511174c15fdde7dea3e957094b4390b/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
@@ -52,6 +53,8 @@ ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/Androi
 INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:35:5-187:19
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:14:5-16:19
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:14:5-16:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8b0430d7a43a0932acd7449379328644/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8b0430d7a43a0932acd7449379328644/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
@@ -300,6 +303,8 @@ MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/am
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:22:5-24:41
 MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8b0430d7a43a0932acd7449379328644/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8b0430d7a43a0932acd7449379328644/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.browser:browser:1.4.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b511174c15fdde7dea3e957094b4390b/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
@@ -372,6 +377,10 @@ queries
 ADDED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:26:5-34:15
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
 ADDED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:27:9-33:18
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:22-76
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 	android:exported

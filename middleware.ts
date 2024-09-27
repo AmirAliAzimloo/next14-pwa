@@ -62,56 +62,58 @@ export function middleware(request: NextRequest) {
 
   // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
   // If you have one
-  if (
-    [
-      '/firebase-messaging-sw.js',
-      '/icomoon/style.css',
-      '/icomoon/fonts/custom-icon-font.eot',
-      '/icomoon/fonts/custom-icon-font.svg',
-      '/icomoon/fonts/custom-icon-font.ttf',
-      '/icomoon/fonts/custom-icon-font.woff',
-      '/manifest.json',
-      '/favicon.ico',
-      '/sw.js',
-      '/next.svg',
-      '/sw.js.map',
-      '/swe-worker-development.js',
-      '/vercel.svg',
-      '/workbox-7144475a.js',
-      '/workbox-7144475a.js.map',
-      '/icons/icon-192x192.png',
-      '/icons/icon-384x384.png',
-      '/icons/icon-512x512.png',
-      '/.well-known/assetlinks.json',
-      // Your other files in `public`
+  // if (
+  //   [
+  //     '/firebase-messaging-sw.js',
+  //     '/icomoon/style.css',
+  //     '/icomoon/fonts/custom-icon-font.eot',
+  //     '/icomoon/fonts/custom-icon-font.svg',
+  //     '/icomoon/fonts/custom-icon-font.ttf',
+  //     '/icomoon/fonts/custom-icon-font.woff',
+  //     '/manifest.json',
+  //     '/favicon.ico',
+  //     '/sw.js',
+  //     '/next.svg',
+  //     '/sw.js.map',
+  //     '/swe-worker-development.js',
+  //     '/vercel.svg',
+  //     '/workbox-7144475a.js',
+  //     '/workbox-7144475a.js.map',
+  //     '/icons/icon-192x192.png',
+  //     '/icons/icon-384x384.png',
+  //     '/icons/icon-512x512.png',
+  //     '/.well-known/assetlinks.json',
+  //     // Your other files in `public`
 
 
-    ].includes(pathname)
-  )
-    return
+  //   ].includes(pathname)
+  // )
+  //   return
 
 
 
-  // Check if there is any supported locale in the pathname
-  const pathnameIsMissingLocale = i18n.locales.every(
-    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
-  )
+  // // Check if there is any supported locale in the pathname
+  // const pathnameIsMissingLocale = i18n.locales.every(
+  //   (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
+  // )
 
 
-  // Redirect if there is no locale
-  if (pathnameIsMissingLocale) {
-    const locale = getLocale(request)
+  // // Redirect if there is no locale
+  // if (pathnameIsMissingLocale) {
+  //   const locale = getLocale(request)
 
-    // e.g. incoming request is /products
-    // The new URL is now /en-US/products
+  //   // e.g. incoming request is /products
+  //   // The new URL is now /en-US/products
 
-    return NextResponse.redirect(
-      new URL(
-        `/${i18n.defaultLocale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
-        request.url
-      )
-    )
-  }
+  //   return NextResponse.redirect(
+  //     new URL(
+  //       `/${i18n.defaultLocale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
+  //       request.url
+  //     )
+  //   )
+  // }
+
+  return NextResponse.next();
 
 }
 

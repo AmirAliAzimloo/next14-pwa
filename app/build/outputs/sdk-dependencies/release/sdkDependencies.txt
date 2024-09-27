@@ -434,6 +434,18 @@ library {
   repo_index {
   }
 }
+library {
+  maven_library {
+    groupId: "com.google.android.gms"
+    artifactId: "play-services-ads-identifier"
+    version: "18.0.1"
+  }
+  digests {
+    sha256: "\251\200\207\313o(\256\351:\t\3527\377?\343\231\b\234\312\240Z\367\204\341\270\375\313\016\037\254\245\256"
+  }
+  repo_index {
+  }
+}
 library_dependencies {
   library_dep_index: 1
   library_dep_index: 32
@@ -633,10 +645,15 @@ library_dependencies {
   library_dep_index: 5
   library_dep_index: 32
 }
+library_dependencies {
+  library_index: 36
+  library_dep_index: 30
+}
 module_dependencies {
   module_name: "base"
   dependency_index: 0
   dependency_index: 35
+  dependency_index: 36
 }
 repositories {
   maven_repo {

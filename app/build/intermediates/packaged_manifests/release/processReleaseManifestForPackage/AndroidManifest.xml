@@ -42,7 +42,8 @@
 
             <data android:scheme="https" />
         </intent>
-    </queries>
+    </queries> <!-- Include required permissions for Advertising Id -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
         android:name="app.vercel.next14_pwa.twa.Application"

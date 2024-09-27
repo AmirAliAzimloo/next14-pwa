@@ -2536,6 +2536,13 @@ com.google.android.gms.actions.ItemListIntents
 com.google.android.gms.actions.NoteIntents
 com.google.android.gms.actions.ReserveIntents
 com.google.android.gms.actions.SearchIntents
+com.google.android.gms.ads.identifier.AdvertisingIdClient:
+    public void <init>(android.content.Context)
+    public com.google.android.gms.ads.identifier.AdvertisingIdClient$Info getInfo()
+    public static boolean getIsAdIdFakeForDebugLogging(android.content.Context)
+    public static void setShouldSkipGmsCoreVersionCheck(boolean)
+    public void start()
+com.google.android.gms.ads_identifier.R
 com.google.android.gms.auth.api.signin.GoogleSignInAccount:
     public static com.google.android.gms.auth.api.signin.GoogleSignInAccount createDefault()
     public static com.google.android.gms.auth.api.signin.GoogleSignInAccount fromAccount(android.accounts.Account)
@@ -2597,7 +2604,8 @@ com.google.android.gms.base.R
 com.google.android.gms.common.AccountPicker$AccountChooserOptions$Builder
 com.google.android.gms.common.AccountPicker$AccountChooserOptions
 com.google.android.gms.common.AccountPicker
-com.google.android.gms.common.BlockingServiceConnection
+com.google.android.gms.common.BlockingServiceConnection:
+    public android.os.IBinder getService()
 com.google.android.gms.common.ConnectionResult:
     public static final int API_DISABLED
     public static final int API_DISABLED_FOR_CONNECTION
@@ -2651,14 +2659,12 @@ com.google.android.gms.common.GoogleApiAvailabilityLight:
     public int getApkVersion(android.content.Context)
     public int getClientVersion(android.content.Context)
     public android.content.Intent getErrorResolutionIntent(int)
-    public static com.google.android.gms.common.GoogleApiAvailabilityLight getInstance()
     public boolean isPlayServicesPossiblyUpdating(android.content.Context,int)
     public boolean isPlayStorePossiblyUpdating(android.content.Context,int)
     public void verifyGooglePlayServicesIsAvailable(android.content.Context,int)
 com.google.android.gms.common.GooglePlayServicesManifestException:
     public int getActualVersion()
     public int getExpectedVersion()
-com.google.android.gms.common.GooglePlayServicesNotAvailableException
 com.google.android.gms.common.GooglePlayServicesRepairableException
 com.google.android.gms.common.GooglePlayServicesUtil:
     public static final java.lang.String GMS_ERROR_DIALOG
@@ -3255,7 +3261,6 @@ com.google.android.gms.common.internal.Preconditions:
     public static void checkMainThread()
     public static void checkMainThread(java.lang.String)
     public static void checkNotMainThread()
-    public static void checkNotMainThread(java.lang.String)
     public static int checkNotZero(int)
     public static int checkNotZero(int,java.lang.Object)
     public static long checkNotZero(long)
@@ -3516,7 +3521,6 @@ com.google.android.gms.common.server.response.zaq
 com.google.android.gms.common.server.zaa
 com.google.android.gms.common.sqlite.CursorWrapper
 com.google.android.gms.common.stats.ConnectionTracker:
-    public boolean bindService(android.content.Context,android.content.Intent,android.content.ServiceConnection,int)
     public void unbindServiceSafe(android.content.Context,android.content.ServiceConnection)
 com.google.android.gms.common.stats.LoggingConstants
 com.google.android.gms.common.stats.StatsEvent$Types
@@ -3620,7 +3624,6 @@ com.google.android.gms.common.util.WorkSourceUtil:
 com.google.android.gms.common.util.concurrent.NamedThreadFactory
 com.google.android.gms.common.util.concurrent.NumberedThreadFactory
 com.google.android.gms.common.util.concurrent.zza
-com.google.android.gms.common.util.zzb
 com.google.android.gms.common.util.zzc
 com.google.android.gms.common.wrappers.InstantApps:
     public void <init>()
@@ -3707,6 +3710,15 @@ com.google.android.gms.dynamite.zzo
 com.google.android.gms.dynamite.zzp
 com.google.android.gms.dynamite.zzq
 com.google.android.gms.dynamite.zzr
+com.google.android.gms.internal.ads_identifier.zzb:
+    public final android.os.IBinder asBinder()
+    public final boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.google.android.gms.internal.ads_identifier.zzc:
+    private void <init>()
+com.google.android.gms.internal.ads_identifier.zzd:
+    public final boolean zzd()
+com.google.android.gms.internal.ads_identifier.zzf:
+    public abstract boolean zzd()
 com.google.android.gms.internal.base.zaa:
     protected final android.os.Parcel zab(int,android.os.Parcel)
 com.google.android.gms.internal.base.zac:
