@@ -152,6 +152,7 @@ const CarouselPlugin = () => {
     <div className="py-2 text-center text-sm text-muted-foreground  w-full max-w-xs mx-auto flex items-center justify-between px-24">
     {Array.from({ length: 5 }).map((_, index) => (
         <div 
+        key={index}
         className={cn(
             "text-4xl font-semibold text-white  rounded-full w-4 h-4 text-center transition-all duration-300 ease-in-out ",
             (current - 1) == index ? 'bg-sky-400 w-8' : 'bg-white',
