@@ -10,6 +10,7 @@
     "update-icons": "npx ts-node ./utils/extractIcons.ts && npx prettier --write --ignore-path .gitignore ./constants/iconList.ts"
   },
   "dependencies": {
+    "@bubblewrap/cli": "^1.22.0",
     "@ducanh2912/next-pwa": "^10.0.0",
     "@firebase/app": "^0.10.11",
     "@firebase/messaging": "^0.12.11",

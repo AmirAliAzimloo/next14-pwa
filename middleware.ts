@@ -79,9 +79,9 @@ export function middleware(request: NextRequest) {
       '/vercel.svg',
       '/workbox-7144475a.js',
       '/workbox-7144475a.js.map',
-      '/icons/android-chrome-192x192.png',
-      '/icons/android-chrome-384*384.png',
-      '/icons/android-chrome-512*512.png',
+      '/icons/icon-192x192.png',
+      '/icons/icon-384*384.png',
+      '/icons/icon-512*512.png',
       // Your other files in `public`
 
 
