@@ -3,7 +3,7 @@ import { getDictionary } from "@/get-dictionary";
 import { Locale } from "@/i18n-config";
 import Link from "next/link";
 import User from "./_components/User"
-import CustomCarousel from "./_components/carousel";
+import CustomSelect from "./_components/select";
 
 const Home = async ({
     params: { lang },
@@ -16,7 +16,10 @@ const Home = async ({
 
     return ( 
       <>
-        <CustomCarousel />
+        {/* <CustomCarousel /> */}
+        <div className="mx-auto w-full max-w-sm my-10">
+        <CustomSelect />
+        </div>
         {/* <User />
         <div className="centerAll mt-4 bg-green-500 rounded-sm py-4">
             <Link  href={`/${lang}/map`} >
