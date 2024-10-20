@@ -14,7 +14,7 @@ export default async function IndexPage({
       <div className='bg-sky-500 centerAll' >
       <button onClick={()=>{
       if(typeof window !== 'undefined'){
-        window.location.href = 'intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=app.vercel.next14_pwa.twa;action=ir.metrix.NewEvent;end'
+        window.location.href = 'intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=ir.metrix.twa.sample;action=ir.metrix.NewEvent;end'
       }
     }} >
       Hello Metrix !
