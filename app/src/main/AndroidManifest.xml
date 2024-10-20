@@ -163,7 +163,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <!--"intent://metrix?key=value#Intent;scheme=myscheme;package=my.app.package;action=ir.metrix.NewEvent;end"-->
-                <action android:name="ir.metrix.NewEvent" />
+                <action android:name="NewEvent" />
                 <action android:name="ir.metrix.NewRevenue" />
                 <action android:name="ir.metrix.UserAttributes" />
                 <action android:name="ir.metrix.UserCustomId" />
