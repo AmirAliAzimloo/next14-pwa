@@ -211,4 +211,5 @@ dependencies {
      implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
      implementation 'ir.metrix.attribution:metrix:2.2.8'
      implementation 'ir.metrix.analytics:metrix:2.2.8'
+     implementation 'androidx.appcompat:appcompat:1.6.1'
 }
