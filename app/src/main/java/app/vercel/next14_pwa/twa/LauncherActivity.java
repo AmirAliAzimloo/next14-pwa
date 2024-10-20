@@ -1,45 +1,87 @@
-/*
- * Copyright 2020 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package app.vercel.next14_pwa.twa;
+
 import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
+import com.google.android.gms.ads.identifier.AdvertisingIdClient;
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
+import com.google.android.gms.common.GooglePlayServicesRepairableException;
+import java.io.IOException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class LauncherActivity
         extends com.google.androidbrowserhelper.trusted.LauncherActivity {
     
-    
+    private static final String TAG = "LauncherActivity";
+    private String advertisingId = null;
+    private final ExecutorService executor = Executors.newSingleThreadExecutor();
+    private boolean isDestroyed = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d(TAG, "onCreate called");
         super.onCreate(savedInstanceState);
-        // Setting an orientation crashes the app due to the transparent background on Android 8.0
-        // Oreo and below. We only set the orientation on Oreo and above. This only affects the
-        // splash screen and Chrome will still respect the orientation.
-        // See https://github.com/GoogleChromeLabs/bubblewrap/issues/496 for details.
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT);
         } else {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
         }
+        
+        fetchAdvertisingId();
     }
+
+    private void fetchAdvertisingId() {
+        Log.d(TAG, "Fetching advertising ID");
+        executor.execute(() -> {
+            try {
+                AdvertisingIdClient.Info adInfo = AdvertisingIdClient.getAdvertisingIdInfo(getApplicationContext());
+                advertisingId = adInfo.getId();
+                Log.d(TAG, "Advertising ID fetched: " + advertisingId);
+            } catch (IOException | GooglePlayServicesNotAvailableException | GooglePlayServicesRepairableException e) {
+                Log.e(TAG, "Error fetching advertising ID", e);
+            } finally {
+                runOnUiThread(this::launchTwa);
+            }
+        });
+    }
+
+    @Override
+    protected void launchTwa() {
+        if (!isDestroyed) {
+            Log.d(TAG, "Launching TWA");
+            Uri launchingUrl = getLaunchingUrl();
+            Log.d(TAG, "Launching URL: " + launchingUrl);
+            super.launchTwa();
+        } else {
+            Log.d(TAG, "Activity destroyed, not launching TWA");
+        }
+    }
+
     @Override
     protected Uri getLaunchingUrl() {
-        // Get the original launch Url.
         Uri uri = super.getLaunchingUrl();
+        Log.d(TAG, "Original launching URL: " + uri.toString());
+        
+        if (advertisingId != null && !advertisingId.isEmpty()) {
+            uri = uri.buildUpon()
+                    .appendQueryParameter("gps_adid", advertisingId)
+                    .build();
+            Log.d(TAG, "URL with GAID: " + uri.toString());
+        } else {
+            Log.d(TAG, "No GAID available to append");
+        }
         
         return uri;
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        isDestroyed = true;
+        executor.shutdown();
+        Log.d(TAG, "onDestroy called");
     }
 }
