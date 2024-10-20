@@ -1,119 +1,75 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-import { i18n } from './i18n-config'
-
-import { match as matchLocale } from '@formatjs/intl-localematcher'
-import Negotiator from 'negotiator'
-
-import { parse } from 'cookie';
+import { cookies } from 'next/headers';
+import { i18n } from './i18n-config';
 
 
-function getLocale(request: NextRequest): string | undefined {
-  // Negotiator expects plain object so we need to transform headers
-  const negotiatorHeaders: Record<string, string> = {}
-  request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
+export function middleware(request: NextRequest) {
 
+  const pathname = request.nextUrl.pathname;
+  const authToken = cookies().get("token");
+  const language = cookies().get("lng");
 
+  
+  
+  
 
-  // @ts-ignore locales are readonly
-  const locales: string[] = i18n.locales
+  // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
+  // If you have one
+  if (
+    [
+      '/manifest.json',
+      '/favicon.ico',
+      '/sw.js',
+      '/sw.js.map',
+      '/swe-worker-development.js',
+      '/workbox-7144475a.js',
+      '/workbox-7144475a.js.map',
+      '/logo192.png',
+      '/logo512.png',
+      '/logo144.png',
+      '/assets',
+      '/public',
+      '/public/assets/icons/logo144.png',
+      '/public/assets/icons/logo192.png',
+      '/public/assets/icons/logo512.png',
+      "/assets/icons/logo144.png",
+      "/assets/icons/logo192.png",
+      "/assets/icons/logo512.png",
+      "/video/1.mp4"
+      // Your other files in `public`
+    ].includes(pathname)
+  )
+    return
 
-  // Use negotiator and intl-localematcher to get best locale
-  let languages = new Negotiator({ headers: negotiatorHeaders }).languages(
-    locales
+  // Check if there is any supported locale in the pathname
+  const pathnameIsMissingLocale = i18n.locales.every(
+    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   )
 
  
 
-  const locale = matchLocale(languages, locales, i18n.defaultLocale)
+  // Redirect if there is no locale
+  if (pathnameIsMissingLocale) {
+    // e.g. incoming request is /products
+    // The new URL is now /en-US/products
+    return NextResponse.redirect(
+      new URL(
+        // `/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
+        `/${!!language?.value ? language?.value : i18n.defaultLocale }${pathname.startsWith('/') ? '' : '/'}${pathname}`,
+        request.url
+      )
+    )
+  }
 
-  return locale
-}
+  if(!authToken && pathname?.toString()?.split("/")?.[2] !== "auth"){
+    return NextResponse.redirect(new URL('/auth/login', request.url))
+  }
 
-
-export function middleware(request: NextRequest) { 
-  const pathname = request.nextUrl.pathname;
-
-
-  const cookies = parse(request.headers.get('cookie') || '');
-
-  const { token } = cookies;
-
-  // console.log('Parsed Cookies:', cookies);
-
-  // console.log("***********************************")
-  // console.log(request.cookies)
-  // console.log(request.cookies.token)
-  // console.log(token)
-  // console.log("***********************************")
-
-  // if(!token){
-  //     console.log("***********************************")
-  //   console.log(pathname)
-  //     console.log("***********************************")
-
-  //     return NextResponse.redirect(new URL('/fa/login', request.url), { status: 303 });
-
-  // }
-
-
-
-
-  // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
-  // If you have one
-  // if (
-  //   [
-  //     '/firebase-messaging-sw.js',
-  //     '/icomoon/style.css',
-  //     '/icomoon/fonts/custom-icon-font.eot',
-  //     '/icomoon/fonts/custom-icon-font.svg',
-  //     '/icomoon/fonts/custom-icon-font.ttf',
-  //     '/icomoon/fonts/custom-icon-font.woff',
-  //     '/manifest.json',
-  //     '/favicon.ico',
-  //     '/sw.js',
-  //     '/next.svg',
-  //     '/sw.js.map',
-  //     '/swe-worker-development.js',
-  //     '/vercel.svg',
-  //     '/workbox-7144475a.js',
-  //     '/workbox-7144475a.js.map',
-  //     '/icons/icon-192x192.png',
-  //     '/icons/icon-384x384.png',
-  //     '/icons/icon-512x512.png',
-  //     '/.well-known/assetlinks.json',
-  //     // Your other files in `public`
-
-
-  //   ].includes(pathname)
-  // )
-  //   return
-
-
-
-  // // Check if there is any supported locale in the pathname
-  // const pathnameIsMissingLocale = i18n.locales.every(
-  //   (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
-  // )
-
-
-  // // Redirect if there is no locale
-  // if (pathnameIsMissingLocale) {
-  //   const locale = getLocale(request)
-
-  //   // e.g. incoming request is /products
-  //   // The new URL is now /en-US/products
-
-  //   return NextResponse.redirect(
-  //     new URL(
-  //       `/${i18n.defaultLocale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
-  //       request.url
-  //     )
-  //   )
-  // }
-
-  return NextResponse.next();
+  if(authToken && pathname?.toString()?.split("/")?.[2] == "auth"){
+    return NextResponse.redirect(new URL('/', request.url))
+  }
 
 }
 
@@ -121,7 +77,3 @@ export const config = {
   // Matcher ignoring `/_next/` and `/api/`
   matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
 }
-
-
-
-

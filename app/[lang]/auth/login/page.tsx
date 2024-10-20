@@ -1,3 +1,5 @@
+'use client';
+
 import { getDictionary } from '@/get-dictionary'
 import { Locale } from '@/i18n-config'
 import LoginForm from '../components/LoginForm'
@@ -15,9 +17,13 @@ export default async function IndexPage({
       <LoginForm />
 
       <div className='bg-sky-500 centerAll' >
-        <Link href={`/${lang}/register`} >
-        create account
-        </Link>
+      <button onClick={()=>{
+      if(typeof window !== 'undefined'){
+        window.location.href = 'intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=my.app.package;action=ir.metrix.NewEvent;end'
+      }
+    }} >
+      Hello Metrix !
+    </button>
       </div>
     </div>
   )
