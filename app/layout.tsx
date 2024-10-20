@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 
-import '../globals.css'
+import './globals.css'
 import '@/public/icomoon/style.css';
 
 import { i18n } from '@/i18n-config'
@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 }
 
 const customFontIcon = localFont({
-  src: '../../public/icomoon/fonts/custom-icon-font.woff',
+  src: '../public/icomoon/fonts/custom-icon-font.woff',
   display: 'swap',
   variable: '--custom-font-icon',
 })
@@ -43,7 +43,7 @@ export default function RootLayout({
       {/* <TestProvider> */}
       <div className='w-full px-1 h-full' >
       <Providers>
-       <LocaleSwitcher />
+       {/* <LocaleSwitcher /> */}
         {children}
       </Providers>
       </div>

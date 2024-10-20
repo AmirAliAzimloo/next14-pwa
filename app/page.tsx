@@ -1,20 +1,9 @@
 'use client';
 
-import { getDictionary } from '@/get-dictionary'
-import { Locale } from '@/i18n-config'
-import LoginForm from '../components/LoginForm'
-import Link from 'next/link'
+export default async function IndexPage() {
 
-export default async function IndexPage({
-  params: { lang },
-}: {
-  params: { lang: Locale } 
-}) {
-
-  console.log("login page")
   return ( 
-    <div>
-      <LoginForm />
+    <div className="w-full h-full flex items-center justify-center">
 
       {/* <div className='bg-sky-500 centerAll' >
      <Link href="intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=app.vercel.next14_pwa.twa;action=ir.metrix.NewEvent;end" target="_blank">
@@ -25,7 +14,7 @@ export default async function IndexPage({
         if(typeof window !== 'undefined'){
           window.location.href = "intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=app.vercel.next14_pwa.twa;action=ir.metrix.NewEvent;end";
         }
-      }} className='bg-sky-500 centerAll'>
+      }} className='bg-sky-500 centerAll p-4 rounded-sm cursor-pointer'>
       Hello Metrix !
       </div>
     
