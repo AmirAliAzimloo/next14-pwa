@@ -5,9 +5,8 @@ import '@/public/icomoon/style.css';
 
 import { i18n } from '@/i18n-config'
 import { Providers } from '@/lib/Providers'
-import LocaleSwitcher from '@/components/locale-switcher'
-import { TestProvider } from '@/context/TestContext'
 import localFont from 'next/font/local';
+import { Suspense } from 'react';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }))
@@ -44,7 +43,9 @@ export default function RootLayout({
       <div className='w-full px-1 h-full' >
       <Providers>
        {/* <LocaleSwitcher /> */}
+       <Suspense>
         {children}
+       </Suspense>
       </Providers>
       </div>
       {/* </TestProvider> */}
