@@ -1,4 +1,0 @@
-#Sun Oct 20 17:48:02 IRST 2024
-base.0=/Users/amiraliazimloo/Desktop/personal/next14-pwa/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
