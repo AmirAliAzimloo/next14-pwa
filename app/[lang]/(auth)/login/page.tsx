@@ -8,7 +8,7 @@ export default async function IndexPage({
   params: { lang: Locale } 
 }) {
 
-  return ( 
+  return (  
     <div>
 
       <div className='bg-sky-500 centerAll' >
