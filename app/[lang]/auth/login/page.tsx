@@ -16,11 +16,19 @@ export default async function IndexPage({
     <div>
       <LoginForm />
 
-      <div className='bg-sky-500 centerAll' >
+      {/* <div className='bg-sky-500 centerAll' >
      <Link href="intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=app.vercel.next14_pwa.twa;action=ir.metrix.NewEvent;end" target="_blank">
     Hello Metrix !
     </Link>
+      </div> */}
+      <div onClick={()=>{
+        if(typeof window !== 'undefined'){
+          window.location.href = "intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=app.vercel.next14_pwa.twa;action=ir.metrix.NewEvent;end";
+        }
+      }} className='bg-sky-500 centerAll'>
+      Hello Metrix !
       </div>
+    
     </div>
   )
 }

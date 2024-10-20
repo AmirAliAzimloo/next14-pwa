@@ -1,4 +1,5 @@
-package ir.metrix.twa.sample;
+package app.vercel.next14_pwa.twa;
+
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -27,8 +28,11 @@ public class ReceiverActivity extends AppCompatActivity {
     @SuppressLint("MissingSuperCall")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        
         Intent intent = getIntent();
         Uri data = intent.getData();
+
 
         if (intent.getAction() != null) {
             switch (intent.getAction()) {

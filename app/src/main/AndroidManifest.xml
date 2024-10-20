@@ -45,6 +45,13 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Translucent.NoTitleBar">
 
+         <meta-data
+                    android:name="ir.metrix.APPLICATION_ID"
+                    android:value="mtvptknnnqjcqjj" />
+            <meta-data
+                android:name="ir.metrix.API_KEY"
+                android:value="82a94133-bae2-4793-aeeb-dc11f8ddb211" />
+
         <meta-data
             android:name="asset_statements"
             android:resource="@string/assetStatements" />
@@ -78,12 +85,6 @@
             <meta-data android:name="android.support.customtabs.trusted.DEFAULT_URL"
                 android:value="@string/launchUrl" />
 
-            <meta-data
-                    android:name="ir.metrix.APPLICATION_ID"
-                    android:value="mtvptknnnqjcqjj" />
-            <meta-data
-                android:name="ir.metrix.API_KEY"
-                android:value="82a94133-bae2-4793-aeeb-dc11f8ddb211" />
 
             <meta-data
                 android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
@@ -154,7 +155,7 @@
         </activity>
 
         <activity
-            android:name=".ReceiverActivity"
+            android:name="ReceiverActivity"
             android:exported="true"
             android:theme="@style/AppTheme.Transparent">
             <intent-filter>

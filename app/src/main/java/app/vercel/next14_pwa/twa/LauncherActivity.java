@@ -1,70 +1,44 @@
+/*
+ * Copyright 2020 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package app.vercel.next14_pwa.twa;
-
 import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import com.google.android.gms.ads.identifier.AdvertisingIdClient;
-
 public class LauncherActivity
         extends com.google.androidbrowserhelper.trusted.LauncherActivity {
-
-    private static final String TAG = "LauncherActivity";
-    private String gaid = null;
-
+    
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Setting an orientation crashes the app due to the transparent background on Android 8.0
+        // Oreo and below. We only set the orientation on Oreo and above. This only affects the
+        // splash screen and Chrome will still respect the orientation.
+        // See https://github.com/GoogleChromeLabs/bubblewrap/issues/496 for details.
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT);
         } else {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
         }
-
-        // Fetch GAID
-        fetchGAID();
     }
-
-    private void fetchGAID() {
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
-        Future<String> gaidFuture = executorService.submit(() -> getGAID());
-
-        try {
-            gaid = gaidFuture.get();  // Waits for GAID task
-            if (gaid == null) {
-                Log.w(TAG, "Failed to retrieve GAID");
-            }
-        } catch (Exception e) {
-            Log.e(TAG, "Error fetching GAID", e);
-        } finally {
-            executorService.shutdown();
-        }
-    }
-
-    private String getGAID() {
-        try {
-            return AdvertisingIdClient.getAdvertisingIdInfo(this).getId();
-        } catch (Exception e) {
-            Log.e(TAG, "Error retrieving GAID", e);
-            return null;
-        }
-    }
-
     @Override
     protected Uri getLaunchingUrl() {
         // Get the original launch Url.
         Uri uri = super.getLaunchingUrl();
-        
-        // Append GAID as a query parameter if available
-        if (gaid != null) {
-            Uri.Builder builder = uri.buildUpon();
-            builder.appendQueryParameter("ga_id", gaid);
-            return builder.build();
-        }
         
         return uri;
     }
