@@ -22,6 +22,7 @@ const Home = async ({
         <CustomSelect />
         {/* <DropdownMenuDemo /> */}
         </div>
+        <User />
         {/* <User />
         <div className="centerAll mt-4 bg-green-500 rounded-sm py-4">
             <Link  href={`/${lang}/map`} >

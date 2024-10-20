@@ -15,6 +15,7 @@ import Image from "next/image";
 
 const SelectScrollable = () => {
   return (
+    <>
     <Select   onValueChange={(e)=>{
       console.log(e,'log_00')
     }}>
@@ -70,6 +71,14 @@ const SelectScrollable = () => {
           <SelectItem value="clt">Chile Standard Time (CLT)</SelectItem>
       </SelectContent>
     </Select>
+    <button onClick={()=>{
+      if(typeof window !== 'undefined'){
+        window.location.href = 'intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=my.app.package;action=ir.metrix.NewEvent;end'
+      }
+    }} >
+      Hello Metrix !
+    </button>
+    </>
   )
 }
 

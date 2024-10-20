@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "app.vercel.next14_pwa.twa.app-mergeReleaseResources-8:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "app.vercel.next14_pwa.twa.app-mergeReleaseResources-12:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/amiraliazimloo/.gradle/caches/8.8/transforms/b511174c15fdde7dea3e957094b4390b/transformed/browser-1.4.0/res/values-en-rCA/values-en-rCA.xml",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/amiraliazimloo/.gradle/caches/8.8/transforms/32f254905cd7d6fa64a618b907880714/transformed/core-1.6.0/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

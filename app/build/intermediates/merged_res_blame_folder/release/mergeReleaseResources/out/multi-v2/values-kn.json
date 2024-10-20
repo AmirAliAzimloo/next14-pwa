@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "app.vercel.next14_pwa.twa.app-mergeReleaseResources-8:/values-kn/values-kn.xml",
+            "outputFile": "app.vercel.next14_pwa.twa.app-mergeReleaseResources-12:/values-kn/values-kn.xml",
             "map": [
                 {
                     "source": "/Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/res/values-kn/values.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "55,166,336,469,584,727,856,964,1209,1359,1472,1637,1772,1917,2074,2143,2206",
                         "endColumns": "110,169,132,114,142,128,107,98,149,112,164,134,144,156,68,62,84",
                         "endOffsets": "161,331,464,579,722,851,959,1058,1354,1467,1632,1767,1912,2069,2138,2201,2286"
+                    }
+                },
+                {
+                    "source": "/Users/amiraliazimloo/.gradle/caches/8.8/transforms/32f254905cd7d6fa64a618b907880714/transformed/core-1.6.0/res/values-kn/values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2722",
+                        "endColumns": "100",
+                        "endOffsets": "2818"
                     }
                 },
                 {
@@ -52,23 +69,6 @@
                         "startOffsets": "1063",
                         "endColumns": "145",
                         "endOffsets": "1204"
-                    }
-                },
-                {
-                    "source": "/Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/res/values-kn/values-kn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "24",
-                        "startColumns": "4",
-                        "startOffsets": "2722",
-                        "endColumns": "100",
-                        "endOffsets": "2818"
                     }
                 }
             ]

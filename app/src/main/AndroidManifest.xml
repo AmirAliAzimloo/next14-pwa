@@ -24,7 +24,9 @@
 
     
         <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-    
+        <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+
 
     
 
@@ -75,6 +77,13 @@
             android:exported="true">
             <meta-data android:name="android.support.customtabs.trusted.DEFAULT_URL"
                 android:value="@string/launchUrl" />
+
+            <meta-data
+                    android:name="ir.metrix.APPLICATION_ID"
+                    android:value="mtvptknnnqjcqjj" />
+            <meta-data
+                android:name="ir.metrix.API_KEY"
+                android:value="82a94133-bae2-4793-aeeb-dc11f8ddb211" />
 
             <meta-data
                 android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
@@ -142,6 +151,26 @@
             </intent-filter>
 
             
+        </activity>
+
+        <activity
+            android:name=".ReceiverActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.Transparent">
+            <intent-filter>
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!--"intent://metrix?key=value#Intent;scheme=myscheme;package=my.app.package;action=ir.metrix.NewEvent;end"-->
+                <action android:name="ir.metrix.NewEvent" />
+                <action android:name="ir.metrix.NewRevenue" />
+                <action android:name="ir.metrix.UserAttributes" />
+                <action android:name="ir.metrix.UserCustomId" />
+                <data
+                    android:host="metrix"
+                    android:scheme="myscheme" />
+            </intent-filter>
         </activity>
 
         <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />

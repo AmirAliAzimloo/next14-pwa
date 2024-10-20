@@ -1,18 +1,27 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-188:12
-INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-188:12
-INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-188:12
-INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-188:12
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-197:12
+INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-197:12
+INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-197:12
+INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:22:1-197:12
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:17:1-27:12
+MERGED from [ir.metrix.attribution:metrix:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9ede8c09de15b71b1009b5b2277f1ae0/transformed/metrix-2.2.8/AndroidManifest.xml:2:1-9:12
+MERGED from [ir.metrix.analytics:metrix:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2bbc2e2b4e3c4a007af1672b7bd0b65e/transformed/metrix-2.2.8/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8b0430d7a43a0932acd7449379328644/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.browser:browser:1.4.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b511174c15fdde7dea3e957094b4390b/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a1c11eb546b62108efac676d4abf22a9/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/e3627cac7d4bcbed3a6e7aa9fc7150e1/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [ir.metrix:session:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8e4941b52465f9f871a1391ef8780c6c/transformed/session-2.2.8/AndroidManifest.xml:2:1-9:12
+MERGED from [ir.metrix:sentry:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/39eb7c0934f07eee4adf2ca5fa14af5d/transformed/sentry-2.2.8/AndroidManifest.xml:2:1-9:12
+MERGED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:2:1-25:12
+MERGED from [ir.metrix:lifecycle:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03f667a146e067dcbd15dd103b657bf/transformed/lifecycle-2.2.8/AndroidManifest.xml:2:1-9:12
+MERGED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2dce81ea3a3c94e186ebb7695db7f7cf/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a637b18d44c1fa53a59b15d7b9a6e66a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b62f08573129c3b08abafae5c700beec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/75a2ccd4691d118f41617dd645ae627e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -23,18 +32,27 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/amiralia
 MERGED from [androidx.customview:customview:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/16555387727fd6e9b3499bb89740582d/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed440750fa12ca4b2bef421de8347924/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/6ee0b6473c2454066747de781500b3c6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.2.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2fd04857057ce230bd6016b4ac1ced40/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.core:core:1.6.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/32f254905cd7d6fa64a618b907880714/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/825efe36069d0dc9423387a87dc50c87/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b0650a412e26a3a2ee3caaa6aaf8b7f8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/e807fb6701c5feba89b5db3fc097d290/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/3946e355e7642ef81970d7efeb062234/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ce8629ae52d1518b32fe017e0737f64c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/7064c2b476deb9b0aaa8b43d9eb8020f/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8177c1fc185240a426ff4942dea8702c/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/795c4e99b6a135a3724ade6b84f178ce/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ac553d44c98f9eb5709deedde9bb6737/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/90761d0791fa27d480e2553e0aaa89f3/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/96ef1b3d87206cc8b948e1ce215eddc2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/4c593f3ccd186c5fdc45bc6747306ffb/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/e33f938d833f67b1814851e8003f28ac/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/efe4c8131cd7d0841f28a2134ab29b31/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/256a5ae4451509741efae0c1fe72b142/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/17bcef161cf9382c0b52efb1020895f6/transformed/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/c191d9976f87de35525e0a1511a38192/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ce26b0f20e96c24500915975714eff36/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/18851e85444e435739af32cb8c34c4c5/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/45c243dddf266dd449fa8a274a3173e4/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.conscrypt:conscrypt-android:2.2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/05ddc6bf54abba80b0e449a63d37b739/transformed/conscrypt-android-2.2.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.installreferrer:installreferrer:2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/14143a99d9b3a2f2bbd5e44d25296ca0/transformed/installreferrer-2.1/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/5d74b1a2106d48aa5112ba6dbc8a64eb/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 	package
 		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:23:5-40
 		INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml
@@ -48,9 +66,17 @@ uses-permission#android.permission.POST_NOTIFICATIONS
 ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:26:9-80
 	android:name
 		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:26:26-78
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:27:9-82
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+MERGED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:11:5-79
+MERGED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:27:26-80
 application
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:35:5-187:19
-INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:35:5-187:19
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:37:5-196:19
+INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:37:5-196:19
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:14:5-16:19
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:14:5-16:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
@@ -63,238 +89,264 @@ MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/amiraliaz
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a1c11eb546b62108efac676d4abf22a9/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.core:core:1.2.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.2.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2fd04857057ce230bd6016b4ac1ced40/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2fd04857057ce230bd6016b4ac1ced40/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:15:5-23:19
+MERGED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:15:5-23:19
+MERGED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:13:5-19:19
+MERGED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:13:5-19:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.core:core:1.6.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/32f254905cd7d6fa64a618b907880714/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/32f254905cd7d6fa64a618b907880714/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/825efe36069d0dc9423387a87dc50c87/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/825efe36069d0dc9423387a87dc50c87/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/795c4e99b6a135a3724ade6b84f178ce/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/795c4e99b6a135a3724ade6b84f178ce/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [org.conscrypt:conscrypt-android:2.2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/05ddc6bf54abba80b0e449a63d37b739/transformed/conscrypt-android-2.2.1/AndroidManifest.xml:11:5-20
+MERGED from [org.conscrypt:conscrypt-android:2.2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/05ddc6bf54abba80b0e449a63d37b739/transformed/conscrypt-android-2.2.1/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/14143a99d9b3a2f2bbd5e44d25296ca0/transformed/installreferrer-2.1/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/14143a99d9b3a2f2bbd5e44d25296ca0/transformed/installreferrer-2.1/AndroidManifest.xml:11:5-20
 	android:extractNativeLibs
 		INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/32f254905cd7d6fa64a618b907880714/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:43:9-35
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:45:9-35
 	android:label
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:39:9-40
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:41:9-40
 	android:manageSpaceActivity
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:41:9-105
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:43:9-105
 	android:icon
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:38:9-43
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:40:9-43
 	android:allowBackup
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:37:9-35
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:39:9-35
 	android:theme
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:44:9-68
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:46:9-68
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:36:9-35
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:38:9-35
 meta-data#asset_statements
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:46:9-48:58
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:48:9-50:58
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:48:13-55
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:50:13-55
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:47:13-44
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:49:13-44
 meta-data#web_manifest_url
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:51:13-53:58
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:53:13-55:58
 	android:value
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:53:17-55
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:55:17-55
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:52:17-48
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:54:17-48
 meta-data#twa_generator
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:56:9-58:52
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:58:9-60:52
 	android:value
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:58:13-49
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:60:13-49
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:57:13-41
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:59:13-41
 activity#com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:65:13-69:24
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:67:13-71:24
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:65:23-104
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:67:23-104
 meta-data#android.support.customtabs.trusted.MANAGE_SPACE_URL
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:66:13-68:53
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:68:13-70:53
 	android:value
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:68:17-50
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:70:17-50
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:67:17-83
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:69:17-83
 activity#app.vercel.next14_pwa.twa.LauncherActivity
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:72:9-145:20
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:74:9-154:20
 	android:label
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:74:13-49
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:76:13-49
 	android:exported
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:75:13-36
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:77:13-36
 	android:alwaysRetainTaskState
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:73:13-49
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:75:13-49
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:72:19-50
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:74:19-50
 meta-data#android.support.customtabs.trusted.DEFAULT_URL
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:76:13-77:53
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:78:13-79:53
 	android:value
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:77:17-50
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:79:17-50
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:76:24-85
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:78:24-85
+meta-data#ir.metrix.APPLICATION_ID
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:81:13-83:55
+	android:value
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:83:21-52
+	android:name
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:82:21-60
+meta-data#ir.metrix.API_KEY
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:84:13-86:72
+	android:value
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:86:17-69
+	android:name
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:85:17-49
 meta-data#android.support.customtabs.trusted.STATUS_BAR_COLOR
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:79:13-81:58
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:88:13-90:58
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:81:17-55
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:90:17-55
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:80:17-83
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:89:17-83
 meta-data#android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:83:13-85:62
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:92:13-94:62
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:85:17-59
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:94:17-59
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:84:17-88
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:93:17-88
 meta-data#android.support.customtabs.trusted.NAVIGATION_BAR_COLOR
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:87:13-89:61
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:96:13-98:61
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:89:17-58
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:98:17-58
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:88:17-87
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:97:17-87
 meta-data#android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:91:13-93:65
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:100:13-102:65
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:93:17-62
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:102:17-62
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:92:17-92
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:101:17-92
 meta-data#androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:95:13-97:68
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:104:13-106:68
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:97:17-65
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:106:17-65
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:96:17-84
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:105:17-84
 meta-data#androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:99:13-101:72
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:108:13-110:72
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:101:17-69
-	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:100:17-89
-meta-data#android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:103:13-104:54
-	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:104:17-52
-	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:103:24-95
-meta-data#android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:106:13-107:60
-	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:107:17-58
-	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:106:24-104
-meta-data#android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:109:13-110:71
-	android:value
 		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:110:17-69
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:109:24-105
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:109:17-89
+meta-data#android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:112:13-113:54
+	android:resource
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:113:17-52
+	android:name
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:112:24-95
+meta-data#android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:115:13-116:60
+	android:resource
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:116:17-58
+	android:name
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:115:24-104
+meta-data#android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:118:13-119:71
+	android:value
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:119:17-69
+	android:name
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:118:24-105
 meta-data#android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:112:13-113:60
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:121:13-122:60
 	android:value
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:113:17-58
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:122:17-58
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:112:24-97
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:121:24-97
 meta-data#android.app.shortcuts
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:115:13-97
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:124:13-97
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:115:61-94
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:124:61-94
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:115:24-60
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:124:24-60
 meta-data#android.support.customtabs.trusted.FALLBACK_STRATEGY
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:117:13-118:56
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:126:13-127:56
 	android:value
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:118:17-53
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:127:17-53
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:117:24-91
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:126:24-91
 meta-data#android.support.customtabs.trusted.SCREEN_ORIENTATION
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:124:13-125:54
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:133:13-134:54
 	android:value
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:125:17-52
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:134:17-52
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:124:24-92
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:133:24-92
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:131:13-134:29
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:140:13-143:29
 action#android.intent.action.MAIN
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:132:17-69
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:141:17-69
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:132:25-66
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:141:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:133:17-77
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:142:17-77
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:133:27-74
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:142:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/hostName+data:scheme:https
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:136:13-142:29
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:145:13-151:29
 	android:autoVerify
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:136:28-53
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:145:28-53
 action#android.intent.action.VIEW
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:137:17-68
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:146:17-68
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:137:25-66
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:146:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:138:17-76
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:147:17-76
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:138:27-73
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:147:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:139:17-77
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:148:17-77
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:139:27-75
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:148:27-75
 data
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:140:17-141:54
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:149:17-150:54
 	android:host
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:141:21-52
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:150:21-52
 	android:scheme
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:140:23-45
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:149:23-45
 activity#com.google.androidbrowserhelper.trusted.FocusActivity
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:147:9-90
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:156:9-90
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:147:19-87
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:156:19-87
 activity#com.google.androidbrowserhelper.trusted.WebViewFallbackActivity
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:149:9-150:62
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:158:9-159:62
 	android:configChanges
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:150:13-59
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:159:13-59
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:149:19-97
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:158:19-97
 provider#androidx.core.content.FileProvider
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:152:9-160:20
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:161:9-169:20
 	android:grantUriPermissions
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:155:13-47
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:164:13-47
 	android:authorities
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:154:13-60
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:163:13-60
 	android:exported
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:156:13-37
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:165:13-37
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:153:13-62
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:162:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:157:13-159:53
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:166:13-168:53
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:159:17-50
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:168:17-50
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:158:17-67
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:167:17-67
 service#app.vercel.next14_pwa.twa.DelegationService
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:162:9-177:19
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:171:9-186:19
 	android:enabled
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:164:13-55
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:173:13-55
 	android:exported
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:165:13-56
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:174:13-56
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:163:13-46
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:172:13-46
 meta-data#android.support.customtabs.trusted.SMALL_ICON
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:168:17-170:73
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:177:17-179:73
 	android:resource
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:170:21-70
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:179:21-70
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:169:21-81
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:178:21-81
 intent-filter#action:name:android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE+category:name:android.intent.category.DEFAULT
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:173:13-176:29
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:182:13-185:29
 action#android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:174:17-105
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:183:17-105
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:174:25-103
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:183:25-103
 activity#com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:180:13-118
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:189:13-118
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:180:23-115
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:189:23-115
 activity#com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity
-ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:184:13-185:89
+ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:193:13-194:89
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:15:9-113
 MERGED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:15:9-113
 	android:name
-		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:184:23-123
+		ADDED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml:193:23-123
 uses-sdk
 INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml
@@ -305,6 +357,10 @@ MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/
 MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:22:5-24:41
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [ir.metrix.attribution:metrix:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9ede8c09de15b71b1009b5b2277f1ae0/transformed/metrix-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix.attribution:metrix:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9ede8c09de15b71b1009b5b2277f1ae0/transformed/metrix-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix.analytics:metrix:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2bbc2e2b4e3c4a007af1672b7bd0b65e/transformed/metrix-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix.analytics:metrix:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2bbc2e2b4e3c4a007af1672b7bd0b65e/transformed/metrix-2.2.8/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8b0430d7a43a0932acd7449379328644/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8b0430d7a43a0932acd7449379328644/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.browser:browser:1.4.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b511174c15fdde7dea3e957094b4390b/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
@@ -317,6 +373,20 @@ MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/amiral
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/e3627cac7d4bcbed3a6e7aa9fc7150e1/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/e3627cac7d4bcbed3a6e7aa9fc7150e1/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [ir.metrix:session:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8e4941b52465f9f871a1391ef8780c6c/transformed/session-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:session:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8e4941b52465f9f871a1391ef8780c6c/transformed/session-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:sentry:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/39eb7c0934f07eee4adf2ca5fa14af5d/transformed/sentry-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:sentry:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/39eb7c0934f07eee4adf2ca5fa14af5d/transformed/sentry-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:lifecycle:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03f667a146e067dcbd15dd103b657bf/transformed/lifecycle-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:lifecycle:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03f667a146e067dcbd15dd103b657bf/transformed/lifecycle-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2dce81ea3a3c94e186ebb7695db7f7cf/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2dce81ea3a3c94e186ebb7695db7f7cf/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a637b18d44c1fa53a59b15d7b9a6e66a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a637b18d44c1fa53a59b15d7b9a6e66a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b62f08573129c3b08abafae5c700beec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
@@ -337,22 +407,22 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/amiral
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed440750fa12ca4b2bef421de8347924/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/6ee0b6473c2454066747de781500b3c6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/6ee0b6473c2454066747de781500b3c6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.2.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/feb8e2b099a13ef41f9cf940d6fd2758/transformed/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2fd04857057ce230bd6016b4ac1ced40/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/2fd04857057ce230bd6016b4ac1ced40/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/32f254905cd7d6fa64a618b907880714/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/32f254905cd7d6fa64a618b907880714/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/825efe36069d0dc9423387a87dc50c87/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/825efe36069d0dc9423387a87dc50c87/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b0650a412e26a3a2ee3caaa6aaf8b7f8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/b0650a412e26a3a2ee3caaa6aaf8b7f8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/e807fb6701c5feba89b5db3fc097d290/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/e807fb6701c5feba89b5db3fc097d290/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/3946e355e7642ef81970d7efeb062234/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/3946e355e7642ef81970d7efeb062234/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ce8629ae52d1518b32fe017e0737f64c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ce8629ae52d1518b32fe017e0737f64c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/7064c2b476deb9b0aaa8b43d9eb8020f/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/7064c2b476deb9b0aaa8b43d9eb8020f/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8177c1fc185240a426ff4942dea8702c/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/8177c1fc185240a426ff4942dea8702c/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/795c4e99b6a135a3724ade6b84f178ce/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/795c4e99b6a135a3724ade6b84f178ce/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ac553d44c98f9eb5709deedde9bb6737/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ac553d44c98f9eb5709deedde9bb6737/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/90761d0791fa27d480e2553e0aaa89f3/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/90761d0791fa27d480e2553e0aaa89f3/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/96ef1b3d87206cc8b948e1ce215eddc2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/96ef1b3d87206cc8b948e1ce215eddc2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/4c593f3ccd186c5fdc45bc6747306ffb/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
@@ -361,6 +431,24 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/e33f938d833f67b1814851e8003f28ac/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/efe4c8131cd7d0841f28a2134ab29b31/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/efe4c8131cd7d0841f28a2134ab29b31/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/256a5ae4451509741efae0c1fe72b142/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/256a5ae4451509741efae0c1fe72b142/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/17bcef161cf9382c0b52efb1020895f6/transformed/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/17bcef161cf9382c0b52efb1020895f6/transformed/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/c191d9976f87de35525e0a1511a38192/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/c191d9976f87de35525e0a1511a38192/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ce26b0f20e96c24500915975714eff36/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ce26b0f20e96c24500915975714eff36/transformed/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/18851e85444e435739af32cb8c34c4c5/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/18851e85444e435739af32cb8c34c4c5/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/45c243dddf266dd449fa8a274a3173e4/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/45c243dddf266dd449fa8a274a3173e4/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.conscrypt:conscrypt-android:2.2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/05ddc6bf54abba80b0e449a63d37b739/transformed/conscrypt-android-2.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [org.conscrypt:conscrypt-android:2.2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/05ddc6bf54abba80b0e449a63d37b739/transformed/conscrypt-android-2.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.installreferrer:installreferrer:2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/14143a99d9b3a2f2bbd5e44d25296ca0/transformed/installreferrer-2.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/14143a99d9b3a2f2bbd5e44d25296ca0/transformed/installreferrer-2.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/5d74b1a2106d48aa5112ba6dbc8a64eb/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/5d74b1a2106d48aa5112ba6dbc8a64eb/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
 		INJECTED from /Users/amiraliazimloo/Desktop/personal/next14-pwa/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
@@ -375,12 +463,10 @@ ADDED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/ami
 		ADDED from [com.google.androidbrowserhelper:locationdelegation:1.1.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ad3286f937b2a8d61d644356a246454e/transformed/locationdelegation-1.1.1/AndroidManifest.xml:12:22-78
 queries
 ADDED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:26:5-34:15
+MERGED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:9:5-11:15
+MERGED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:9:5-11:15
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
 ADDED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:27:9-33:18
-uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/a03762d8d73f7b5e31dcca6e65c9ce4a/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:22-76
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/9d7b38f1d96938519477dd5bb030ea7d/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 	android:exported
@@ -395,3 +481,283 @@ ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/amirali
 		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/070e01525a9f4da3b88a8516a42b5c99/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+package#com.farsitel.bazaar
+ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:10:9-55
+	android:name
+		ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:10:18-52
+uses-permission#com.farsitel.bazaar.permission.REFERRER
+ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:13:22-76
+receiver#ir.metrix.referrer.cafebazaar.communicators.broadcast.ClientReceiver
+ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:16:9-22:20
+	android:exported
+		ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:17:13-96
+intent-filter#action:name:com.farsitel.bazaar.referrer.get
+ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:19:13-21:29
+action#com.farsitel.bazaar.referrer.get
+ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:20:17-75
+	android:name
+		ADDED from [ir.metrix:referrer:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/bcf1d76b5957fa9e26277a957035f268/transformed/referrer-2.2.8/AndroidManifest.xml:20:25-72
+uses-permission#android.permission.INTERNET
+ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:10:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:10:22-76
+provider#ir.metrix.internal.init.Initializer
+ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:14:9-18:40
+	android:enabled
+		ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:17:13-35
+	android:authorities
+		ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:16:13-69
+	android:exported
+		ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [ir.metrix:core:2.2.8] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ed0aae791e1dbe213288322c3e9a0572/transformed/core-2.2.8/AndroidManifest.xml:15:13-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/795c4e99b6a135a3724ade6b84f178ce/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/795c4e99b6a135a3724ade6b84f178ce/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/20b5d0f953a01c140fb35d6931c91dfd/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/ec5b89428eeff8bb8ebf7948d726ba98/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/14143a99d9b3a2f2bbd5e44d25296ca0/transformed/installreferrer-2.1/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:2.1] /Users/amiraliazimloo/.gradle/caches/8.8/transforms/14143a99d9b3a2f2bbd5e44d25296ca0/transformed/installreferrer-2.1/AndroidManifest.xml:9:22-107
