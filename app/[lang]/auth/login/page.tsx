@@ -17,13 +17,16 @@ export default async function IndexPage({
       <LoginForm />
 
       <div className='bg-sky-500 centerAll' >
-      <button onClick={()=>{
+      {/* <button onClick={()=>{
       if(typeof window !== 'undefined'){
         window.location.href = 'intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=my.app.package;action=ir.metrix.NewEvent;end'
       }
     }} >
       Hello Metrix !
-    </button>
+    </button> */}
+     <Link href="intent://myhost?key=value#Intent;scheme=myscheme;package=ir.metrix.twa.sample;action=someaction;end" target="_blank">
+    Hello Metrix !
+    </Link>
       </div>
     </div>
   )
