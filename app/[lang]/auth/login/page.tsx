@@ -12,7 +12,7 @@ export default async function IndexPage({
 }) {
 
   console.log("login page")
-  return (
+  return ( 
     <div>
       <LoginForm />
 
