@@ -14,18 +14,8 @@ export default async function IndexPage() {
         Youre Google Ads Id is {`${GA_ID ?? ''}`}
       </div>
 
-      {/* <div className='bg-sky-500 centerAll' >
-     <Link href="intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=app.vercel.next14_pwa.twa;action=ir.metrix.NewEvent;end" target="_blank">
-    Hello Metrix !
-    </Link>
-      </div> */}
-      <div onClick={()=>{
-        if(typeof window !== 'undefined'){
-          window.location.href = "intent://metrix?slug=ssqzc#Intent;scheme=myscheme;package=app.vercel.next14_pwa.twa;action=ir.metrix.NewEvent;end";
-        }
-      }} className='bg-sky-500 centerAll p-4 rounded-sm cursor-pointer'>
-      Hello Metrix !
-      </div>
+      
+      
     
     </div>
   )
