@@ -45,12 +45,7 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Translucent.NoTitleBar">
 
-         <meta-data
-                    android:name="ir.metrix.APPLICATION_ID"
-                    android:value="mtvptknnnqjcqjj" />
-            <meta-data
-                android:name="ir.metrix.API_KEY"
-                android:value="82a94133-bae2-4793-aeeb-dc11f8ddb211" />
+        
 
         <meta-data
             android:name="asset_statements"
