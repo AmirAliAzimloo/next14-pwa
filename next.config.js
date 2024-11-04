@@ -21,6 +21,8 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 
 
 const nextConfig = {
+    basePath: '/web-app',
+    env: { basePath: '/web-app' },
 }
 
 module.exports = withPWA(nextConfig);
