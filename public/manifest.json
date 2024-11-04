@@ -1,34 +1,28 @@
 {
-  "name": "a",
-  "short_name": "a",
+  "short_name": "PWA App",
+  "name": "My awesome PWA app",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/web-app/icons/icon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/web-app/icons/icon-192.png",
+      "src": "/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/web-app/icons/icon-512.png",
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
-      "type": "any maskable"
+      "type": "image/png"
     }
   ],
-  "theme_color": "#121212",
-  "background_color": "#121212",
-  "start_url": "/web-app",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "scope": ".",
   "display": "standalone",
   "orientation": "portrait"
 }
