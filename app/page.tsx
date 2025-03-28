@@ -18,10 +18,12 @@ export default async function IndexPage() {
 
         if (tg?.initDataUnsafe && tg?.initDataUnsafe?.user) {
           const userId = tg?.initDataUnsafe?.user.id; // User's Telegram ID
-          console.log("User Chat ID:", userId);
+          alert("User Chat ID:" + userId);
         } else {
-          console.log("Unable to retrieve user ID.");
+          alert("Unable to retrieve user ID.");
         }
+      } else {
+        alert("Telegram WebApp is not initialized");
       }
     }
   }, []);
