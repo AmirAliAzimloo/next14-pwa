@@ -10,15 +10,19 @@ export default async function IndexPage() {
   useEffect(() => {
     window.dataLayer.push({ event: "gtm.load", "gtm.uniqueEventId": 3 });
 
-    const tg = window?.Telegram?.WebApp;
+    if (typeof window !== "undefined") {
+      const tg = (window as any)?.Telegram?.WebApp;
 
-    tg?.ready(); // Ensure Telegram WebApp is initialized
+      if (tg) {
+        tg.ready(); // Ensure Telegram WebApp is initialized
 
-    if (tg?.initDataUnsafe && tg?.initDataUnsafe?.user) {
-      const userId = tg?.initDataUnsafe?.user?.id; // User's Telegram ID
-      alert("User Chat ID:", userId);
-    } else {
-      alert("Unable to retrieve user ID.");
+        if (tg?.initDataUnsafe && tg?.initDataUnsafe?.user) {
+          const userId = tg?.initDataUnsafe?.user.id; // User's Telegram ID
+          console.log("User Chat ID:", userId);
+        } else {
+          console.log("Unable to retrieve user ID.");
+        }
+      }
     }
   }, []);
 

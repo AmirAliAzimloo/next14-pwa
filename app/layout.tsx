@@ -42,6 +42,9 @@ export default function RootLayout({
       dir={params.lang == "fa" ? "rtl" : "ltr"}
       className={customFontIcon.variable}
     >
+      <head>
+      <script src="https://telegram.org/js/telegram-web-app.js?56" async></script>
+      </head>
       <body className="w-full bg-neutral-50">
         {/* <TestProvider> */}
         <div className="w-full px-1 h-full">

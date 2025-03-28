@@ -21,7 +21,6 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 
 
 const nextConfig = {
-  ignoreBuildErrors: true,
 }
 
 module.exports = withPWA(nextConfig);
